@@ -35,9 +35,25 @@
 # ～ XiMaLaYa_喜马拉雅_修复轮播Ad失效Bug@ddgksf2013
 ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/focus\/queryF reject
 
+# chelaile
+# > 我的页面@ddgksf2013
+^https?:\/\/.*chelaile\.net\.cn\/goocity\/flowPos\/listByPos reject
+# > 详情页@ddgksf2013
+^https?:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html reject-200
+# > 通用广告@ddgksf2013
+^https?:\/\/.*chelaile\.net\.cn\/(api\/)?adpub reject-200
+# > IPdir处理@ddgksf2013
+^https?:\/\/124\.70\.194\.16\/(ip|adpub) reject-200
+# > 我的页面@ddgksf2013
+^https?:\/\/124\.70\.194\.16\/goocity\/flowPos\/listByPos reject-200
+# > 公交详情页@ddgksf2013
+^https?:\/\/web\.chelaile\.net\.cn\/api\/operative_position\/infoflow reject-200
+# > 隐私跟踪@ddgksf2013
+^https?:\/\/atrace\.chelaile\.net\.cn\/(wx_preloadAd|adAnalysis) reject-200
+
 [Script]
 http-response ^https:\/\/(appcloud2\.zhihu\.com\/v3\/config$|www\.zhihu\.com\/api\/v4\/(answers\/\d+\/recommendations|articles\/\d+\/recommendation)|api\.zhihu\.com\/(topstory\/recommend|commercial_api\/(real_time_launch_v2|app_float_layer$)|questions\/\d+\/feeds\?|v4\/questions\/\d+\/answers\?)) script-path=https://raw.githubusercontent.com/domaingts/config/refs/heads/main/loon/js/zhihu.js,requires-body=true,timeout=10,tag=Zhihu
 http-response https://xluser-ssl.xunlei.com/xluser.core.login/v3/getuserinfo script-path=https://raw.githubusercontent.com/domaingts/config/refs/heads/main/loon/js/xunlei.js,requires-body=1,max-size=0,tag=Xunlei
 
 [Mitm]
-hostname = api.zhihu.com,www.zhihu.com,appcloud2.zhihu.com,xluser-ssl.xunlei.com,*.xima*.*,*.xmcdn.*
+hostname = api.zhihu.com,www.zhihu.com,appcloud2.zhihu.com,xluser-ssl.xunlei.com,*.xima*.*,*.xmcdn.*,web.chelaile.net.cn,api.chelaile.net.cn,cdn.api.chelaile.net.cn,cdn.web.chelaile.net.cn,atrace.chelaile.net.cn
