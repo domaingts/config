@@ -1,0 +1,12 @@
+[Rule]
+DOMAIN,adse.ximalaya.com,REJECT
+DOMAIN,adsehera.ximalaya.com,REJECT
+DOMAIN,adse.wsa.ximalaya.com,REJECT
+DOMAIN,adbehavior.ximalaya.com,REJECT
+DOMAIN,behavior.wsa.ximalaya.com,REJECT
+
+[Rewrite]
+^https:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ reject-dict
+
+[Mitm]
+hostname = gslbali.ximalaya.com,search.ximalaya.com,searchwsa.ximalaya.com,mobile.ximalaya.com,mobilehera.ximalaya.com,mobwsa.ximalaya.com,m.ximalaya.com,mwsa.ximalaya.com
