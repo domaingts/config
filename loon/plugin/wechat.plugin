@@ -1,0 +1,13 @@
+#!name=Wechat
+#!tag=去广告
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Weixin.png
+
+[Rule]
+DOMAIN-SUFFIX, wxs.qq.com, REJECT
+
+[Rewrite]
+^https:\/\/mp\.weixin\.qq\.com\/mp\/(cps_product_info|getappmsgad|jsmonitor|masonryfeed|relatedarticle)\? reject-dict
+^https:\/\/mp\.weixin\.qq\.com\/mp\/relatedsearchword reject-dict
+
+[MitM]
+hostname = mp.weixin.qq.com

@@ -34,4 +34,4 @@ DOMAIN,adbehavior.wsa.ximalaya.com,REJECT
 ^https:\/\/(mobile|mobilehera|mobwsa)\.ximalaya\.com\/mobile-user\/v\d\/purchased\/recommend\/ reject-dict
 
 [MitM]
-hostname=gslbali.ximalaya.com,search.ximalaya.com,searchwsa.ximalaya.com,mobile.ximalaya.com,mobilehera.ximalaya.com,mobwsa.ximalaya.com,m.ximalaya.com,mwsa.ximalaya.com
+hostname = gslbali.ximalaya.com,search.ximalaya.com,searchwsa.ximalaya.com,mobile.ximalaya.com,mobilehera.ximalaya.com,mobwsa.ximalaya.com,m.ximalaya.com,mwsa.ximalaya.com
