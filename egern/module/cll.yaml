@@ -1,0 +1,25 @@
+map_locals:
+  - match: ^https?:\/\/.*chelaile\.net\.cn\/goocity\/flowPos\/listByPos
+    status_code: 404
+    binary: false
+  - match: ^https?:\/\/cdn\.web\.chelaile\.net\.cn\/info-flow\/index\.html
+    status_code: 200
+    binary: false
+  - match: ^https?:\/\/.*chelaile\.net\.cn\/(api\/)?adpub
+    status_code: 200
+    binary: false
+  - match: ^https?:\/\/web\.chelaile\.net\.cn\/api\/operative_position\/infoflow
+    status_code: 200
+    binary: false
+  - match: ^https?:\/\/atrace\.chelaile\.net\.cn\/(wx_preloadAd|adAnalysis)
+    status_code: 200
+    binary: false
+
+mitm:
+  hostnames:
+    includes:
+      - "web.chelaile.net.cn"
+      - "api.chelaile.net.cn"
+      - "cdn.api.chelaile.net.cn"
+      - "cdn.web.chelaile.net.cn"
+      - "atrace.chelaile.net.cn"
