@@ -8,9 +8,9 @@
 ^https?:\/\/xdcs-collector\.ximalaya\.com\/api\/v1\/realtime reject
 ^https?:\/\/.+\.ximalaya\.com\/linkeye.+\/checkIP\?ip.+passport.ximalaya.com reject
 ^https?:\/\/adse\.wsa\.ximalaya\.com reject
-^https?:\/\/openapi\.mysteel\.com\\/v5\\/getAdv\.htm reject
-^https?:\/\/ulogs\.umeng\.com\\/unify_logs reject
-^https?:\/\/adse\.ximalaya\.com\\/ reject
+^https?:\/\/openapi\.mysteel\.com\/v5\/getAdv\.htm reject
+^https?:\/\/ulogs\.umeng\.com\/unify_logs reject
+^https?:\/\/adse\.ximalaya\.com\/ reject
 ^https?:\/\/gslbali\.ximalaya\.com reject
 ^https?:\/\/www\.taobao\.com\/help\/getip\.php reject
 ^https?:\/\/.+location\.ximalaya\.com reject
