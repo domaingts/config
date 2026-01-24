@@ -1,16 +1,1 @@
-rules:
-  - domain:
-      match: adse.ximalaya.com
-      policy: REJECT
-  - domain:
-      match: adsehera.ximalaya.com
-      policy: REJECT
-  - domain:
-      match: adse.wsa.ximalaya.com
-      policy: REJECT
-  - domain:
-      match: adbehavior.ximalaya.com
-      policy: REJECT
-  - domain:
-      match: behavior.wsa.ximalaya.com
-      policy: REJECT
+url_rewrites:
