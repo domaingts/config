@@ -1,0 +1,4 @@
+no_resolve: true
+domain_set:
+  - 'api.statsig.com'
+  - 'browser-intake-datadoghq.com'

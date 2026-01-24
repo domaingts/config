@@ -18,8 +18,8 @@ map_locals:
 mitm:
   hostnames:
     includes:
-      - "web.chelaile.net.cn"
-      - "api.chelaile.net.cn"
-      - "cdn.api.chelaile.net.cn"
-      - "cdn.web.chelaile.net.cn"
-      - "atrace.chelaile.net.cn"
+      - 'web.chelaile.net.cn'
+      - 'api.chelaile.net.cn'
+      - 'cdn.api.chelaile.net.cn'
+      - 'cdn.web.chelaile.net.cn'
+      - 'atrace.chelaile.net.cn'
