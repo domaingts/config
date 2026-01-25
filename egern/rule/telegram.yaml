@@ -25,8 +25,6 @@ domain_suffix_set:
   - tg.dev
   - tx.me
   - usercontent.dev
-domain_keyword_set:
-  - nicegram
 ip_cidr_set:
   - 109.239.140.0/24
   - 139.59.210.98/32
