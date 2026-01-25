@@ -1,53 +1,53 @@
 map_locals:
-  - match: ^https?:\/\/passport\.ximalaya\.com\/friendship-mobile\/v1\/findFriendsBanner\/show\/
+  - match: ^https?://passport\.ximalaya\.com/friendship-mobile/v1/findFriendsBanner/show/
     status_code: 404
     binary: false
-  - match: ^https?:\/\/xdcs-collector\.ximalaya\.com\/api\/v1\/realtime
+  - match: ^https?://xdcs-collector\.ximalaya\.com/api/v1/realtime
     status_code: 404
     binary: false
-  - match: ^https?:\/\/.+\.ximalaya\.com\/linkeye.+\/checkIP\?ip.+passport.ximalaya.com
+  - match: ^https?://.+\.ximalaya\.com/linkeye.+/checkIP\?ip.+passport.ximalaya.com
     status_code: 404
     binary: false
-  - match: ^https?:\/\/adse\.wsa\.ximalaya\.com
+  - match: ^https?://adse\.wsa\.ximalaya\.com
     status_code: 404
     binary: false
-  - match: ^https?:\/\/openapi\.mysteel\.com\/v5\/getAdv\.htm
+  - match: ^https?://openapi\.mysteel\.com/v5/getAdv\.htm
     status_code: 404
     binary: false
-  - match: ^https?:\/\/ulogs\.umeng\.com\/unify_logs
+  - match: ^https?://ulogs\.umeng\.com/unify_logs
     status_code: 404
     binary: false
-  - match: ^https?:\/\/adse\.ximalaya\.com\/
+  - match: ^https?://adse\.ximalaya\.com/
     status_code: 404
     binary: false
-  - match: ^https?:\/\/gslbali\.ximalaya\.com
+  - match: ^https?://gslbali\.ximalaya\.com
     status_code: 404
     binary: false
-  - match: ^https?:\/\/www\.taobao\.com\/help\/getip\.php
+  - match: ^https?://www\.taobao\.com/help/getip\.php
     status_code: 404
     binary: false
-  - match: ^https?:\/\/.+location\.ximalaya\.com
+  - match: ^https?://.+location\.ximalaya\.com
     status_code: 404
     binary: false
-  - match: ^https?:\/\/.+dbehavior\.ximalaya\.com
+  - match: ^https?://.+dbehavior\.ximalaya\.com
     status_code: 404
     binary: false
-  - match: ^https?:\/\/ad\.ximalaya\.com
+  - match: ^https?://ad\.ximalaya\.com
     status_code: 404
     binary: false
-  - match: ^https?:\/\/.+audid-api\.taobao.com
+  - match: ^https?://.+audid-api\.taobao.com
     status_code: 404
     binary: false
-  - match: ^https?:\/\/passport\.ximalaya\.com\/user-http-app\/v1\/token\/refresh
+  - match: ^https?://passport\.ximalaya\.com/user-http-app/v1/token/refresh
     status_code: 404
     binary: false
-  - match: ^https?:\/\/adse\.ximalaya\.com\/incentive\/ting\/durationConfig
+  - match: ^https?://adse\.ximalaya\.com/incentive/ting/durationConfig
     status_code: 200
     headers:
       Content-Type: application/json
     body: '{}'
     binary: false
-  - match: ^https?:\/\/mobile\.ximalaya\.com\/mobile-playpage\/view\/
+  - match: ^https?://mobile\.ximalaya\.com/mobile-playpage/view/
     status_code: 200
     headers:
       Content-Type: application/json
