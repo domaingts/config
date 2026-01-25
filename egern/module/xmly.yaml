@@ -57,13 +57,13 @@ map_locals:
 mitm:
   hostnames:
     includes:
-      # - '*.mysteel.*'
+      - '*.mysteel.*'
       - '*.ximalaya.com'
       - '*.xmcdn.com'
       # - '*xima*'
       # - '*xmcdn*'
-      # - 114*0.*
-      # - 51*.com
+      - 114*0.*
+      - 51*.com
       # - adse.ximalaya.com
       # - passport.ximalaya.com
       - ulogs.umeng.com
