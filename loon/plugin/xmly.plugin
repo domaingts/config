@@ -2,7 +2,6 @@
 #!tag=去广告
 #!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Himalaya.png
 
-
 [Rewrite]
 ^https?:\/\/passport\.ximalaya\.com\/friendship-mobile\/v1\/findFriendsBanner\/show\/ reject
 ^https?:\/\/xdcs-collector\.ximalaya\.com\/api\/v1\/realtime reject
