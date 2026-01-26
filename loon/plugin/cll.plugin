@@ -1,0 +1,23 @@
+#!name=Chelaile
+#!tag=去广告
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/CCLive.png
+
+[Rewrite]
+# chelaile
+# > 我的页面@ddgksf2013
+^https?://.*chelaile\.net\.cn/goocity/flowPos/listByPos reject
+# > 详情页@ddgksf2013
+^https?://cdn\.web\.chelaile\.net\.cn/info-flow/index\.html reject-200
+# > 通用广告@ddgksf2013
+^https?://.*chelaile\.net\.cn/(api/)?adpub reject-200
+# > IPdir处理@ddgksf2013
+^https?://124\.70\.194\.16/(ip|adpub) reject-200
+# > 我的页面@ddgksf2013
+^https?://124\.70\.194\.16/goocity/flowPos/listByPos reject-200
+# > 公交详情页@ddgksf2013
+^https?://web\.chelaile\.net\.cn/api/operative_position/infoflow reject-200
+# > 隐私跟踪@ddgksf2013
+^https?://atrace\.chelaile\.net\.cn/(wx_preloadAd|adAnalysis) reject-200
+
+[Mitm]
+hostname = web.chelaile.net.cn,api.chelaile.net.cn,cdn.api.chelaile.net.cn,cdn.web.chelaile.net.cn,atrace.chelaile.net.cn
