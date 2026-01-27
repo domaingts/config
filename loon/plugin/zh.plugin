@@ -5,7 +5,6 @@
 [Rewrite]
 ^https?://118\.89\.204\.198 reject-dict
 ^https?://103\.41\.167\.237 reject-dict
-^https?://2402:4e00:1200:ed00:0:9089:6dac:96b6 reject-200
 ^https?://api\.zhihu\.com/commercial_api reject-dice
 ^https?://api\.zhihu\.com/commercial_api/answer/\d+/bottom-v2 reject-dice
 ^https?://api\.zhihu\.com/message-push/event reject-dice
@@ -16,6 +15,8 @@
 ^https?://api\.zhihu\.com/bazaar/vip_tab/header reject-dice
 ^https?://api\.zhihu\.com/me/guides reject-dice
 ^https?://api\.zhihu\.com/api/v4/ecom_data/config reject-dice
+
+^https?://2402:4e00:1200:ed00:0:9089:6dac:96b6 reject-200
 
 [Script]
 http-response ^https://(appcloud2\.zhihu\.com/v3/config$|www\.zhihu\.com/api/v4/(answers/\d+/recommendations|articles/\d+/recommendation)|api\.zhihu\.com/(topstory/recommend|commercial_api/(real_time_launch_v2|app_float_layer$)|questions/\d+/feeds\?|v4/questions/\d+/answers\?)) script-path=https://raw.githubusercontent.com/domaingts/config/refs/heads/main/script/zhihu.js,requires-body=true,timeout=10,tag=Zhihu
