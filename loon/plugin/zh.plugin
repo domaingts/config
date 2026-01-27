@@ -6,7 +6,7 @@
 ^https?://118\.89\.204\.198 reject-dict
 ^https?://103\.41\.167\.237 reject-dict
 ^https?://api\.zhihu\.com/commercial_api reject-dice
-^https?://api\.zhihu\.com/commercial_api/answer/\d+/bottom-v2 reject-dice
+# ^https?://api\.zhihu\.com/commercial_api/answer/\d+/bottom-v2 reject-dice
 ^https?://api\.zhihu\.com/message-push/event reject-dice
 ^https?://api\.zhihu\.com/guide_center/strategy reject-dice
 ^https?://api\.zhihu\.com/bazaar/float_window reject-dice
