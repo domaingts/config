@@ -1,0 +1,24 @@
+#!name=Zhihu
+#!tag=去广告
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Zhihu.png
+
+[Rewrite]
+^https?://118\.89\.204\.198 reject-dict
+^https?://103\.41\.167\.237 reject-dict
+^https?://2402:4e00:1200:ed00:0:9089:6dac:96b6 reject-200
+^https?://api\.zhihu\.com/commercial_api reject-dict
+^https?://api\.zhihu\.com/commercial_api/answer/\d+/bottom-v2 reject-dict
+^https?://api\.zhihu\.com/message-push/event reject-dict
+^https?://api\.zhihu\.com/guide_center/strategy reject-dict
+^https?://api\.zhihu\.com/bazaar/float_window reject-dict
+^https?://api\.zhihu\.com/metrics/report reject-dict
+^https?://api\.zhihu\.com/settings/new/notification reject-dict
+^https?://api\.zhihu\.com/bazaar/vip_tab/header reject-dict
+^https?://api\.zhihu\.com/me/guides reject-dict
+^https?://api\.zhihu\.com/api/v4/ecom_data/config reject-dict
+
+[Script]
+http-response ^https://(appcloud2\.zhihu\.com/v3/config$|www\.zhihu\.com/api/v4/(answers/\d+/recommendations|articles/\d+/recommendation)|api\.zhihu\.com/(topstory/recommend|commercial_api/(real_time_launch_v2|app_float_layer$)|questions/\d+/feeds\?|v4/questions/\d+/answers\?)) script-path=https://raw.githubusercontent.com/domaingts/config/refs/heads/main/script/zhihu.js,requires-body=true,timeout=10,tag=Zhihu
+
+[Mitm]
+hostname = 118.89.204.198,103.41.167.237,2402:4e00:1200:ed00:0:9089:6dac:96b6,api.zhihu.com,www.zhihu.com,appcloud2.zhihu.com
