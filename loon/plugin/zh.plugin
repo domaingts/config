@@ -1,4 +1,7 @@
 #!name=Zhihu
+#!tag=去广告
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/Zhihu.png
+
 [Rewrite]
 ^https?://118\.89\.204\.198 reject-dict
 ^https?://103\.41\.167\.237 reject-dict
