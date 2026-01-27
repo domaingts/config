@@ -15,7 +15,6 @@
 ^https?://api\.zhihu\.com/bazaar/vip_tab/header reject-dice
 ^https?://api\.zhihu\.com/me/guides reject-dice
 ^https?://api\.zhihu\.com/api/v4/ecom_data/config reject-dice
-
 ^https?://2402:4e00:1200:ed00:0:9089:6dac:96b6 reject-200
 
 [Script]
