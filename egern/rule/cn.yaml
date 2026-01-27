@@ -20,7 +20,8 @@ domain_set:
   - weixin.com
   - www.libvideo.com
   - www.yxssp.com
-  - yun.jsrxjt.com
+  - h5.udrig.com
+  - api.ip.sb
 domain_suffix_set:
   - 00cdn.com
   - 0123456789.com
@@ -3700,6 +3701,14 @@ domain_suffix_set:
   - zybang.com
   - zyh365.com
   - zzdtec.com
+  - jsrxjt.com
+  - micun.com
+  - iguming.net
+  - gumingnc.com
+  - wxgateway.com
+  - sanjiang.com
+  - hwwt8.com
+  - yumchina.com
 domain_keyword_set:
   - .tmall.com
   - alicdn
