@@ -22,6 +22,7 @@ domain_set:
   - www.yxssp.com
   - h5.udrig.com
   - api.ip.sb
+  - kuaishou.httpdns.pro
 domain_suffix_set:
   - 00cdn.com
   - 0123456789.com
