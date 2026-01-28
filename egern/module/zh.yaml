@@ -1,3 +1,29 @@
+rules:
+  - domain:
+      match: 118.89.204.198
+      policy: REJECT
+      disabled: false
+  - domain:
+      match: appcloud2.in.zhihu.com
+      policy: REJECT
+      disabled: false
+  - domain:
+      match: mqtt.zhihu.com
+      policy: REJECT
+      disabled: false
+  - domain:
+      match: sugar.zhihu.com
+      policy: REJECT
+      disabled: false
+  - ip_cidr:
+      match: 118.89.204.198/32
+      policy: REJECT
+      no_resolve: true
+  - ip_cidr6:
+      match: 2402:4e00:1200:ed00:0:9089:6dac:96b6/128
+      policy: REJECT
+      no_resolve: true
+
 map_locals:
   - match: ^https?://api\.zhihu\.com/commercial_api
     status_code: 200
@@ -19,19 +45,28 @@ map_locals:
     headers:
       Content-Type: application/json
     body: '{}'
-
-# scriptings:
-#   - http_response:
-#       name: zhihu
-#       match: ^https://(appcloud2\.zhihu\.com/v3/config$|www\.zhihu\.com/api/v4/(answers/\d+/recommendations|articles/\d+/recommendation)|api\.zhihu\.com/(topstory/recommend|commercial_api/(real_time_launch_v2|app_float_layer$)|questions/\d+/feeds\?|v4/questions/\d+/answers\?))
-#       script_url: https://raw.githubusercontent.com/domaingts/config/refs/heads/main/script/zhihu.js
-#       timeout: 10
-#       body_required: true
-#       binary_body: false
+  - match: ^https?://api\.zhihu\.com/metrics/report
+    status_code: 200
+    headers:
+      Content-Type: application/json
+    body: '{}'
+  - match: ^https?://api\.zhihu\.com/bazaar/vip_tab/header
+    status_code: 200
+    headers:
+      Content-Type: application/json
+    body: '{}'
+  - match: ^https?://api\.zhihu\.com/root/window
+    status_code: 200
+    headers:
+      Content-Type: application/json
+    body: '{}'
+  - match: ^https?://api\.zhihu\.com/content-distribution-core/sections/
+    status_code: 200
+    headers:
+      Content-Type: application/json
+    body: '{}'
 
 mitm:
   hostnames:
     includes:
       - api.zhihu.com
-      - www.zhihu.com
-      - appcloud2.zhihu.com
