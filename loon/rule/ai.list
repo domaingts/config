@@ -54,6 +54,10 @@ DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
 
+# > Notebooklm
+DOMAIN-SUFFIX,notebooklm.google.com
+DOMAIN-SUFFIX,notebooklm.google
+
 # > Microsoft Copilot
 DOMAIN,api.msn.com
 DOMAIN,assets.msn.com
