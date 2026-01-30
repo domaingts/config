@@ -26,6 +26,15 @@ domain_suffix_set:
   - pglstatp-toutiao.com
   - sf3-ttcdn-tos.pstatp.com
   - shoppingads.cn
+  - ads-union.jd.com
+  - c-nfa.jd.com
+  - cps.360buy.com
+  - gia.jd.com
+  - img-x.jd.com
+  - jzt.jd.com
+  - stat.m.jd.com
+  - ads-pixiv.net
+  - ads-twitter.com
   - atrace.chelaile.net.cn
   - logs.chelaile.net.cn
 domain_regex_set:
