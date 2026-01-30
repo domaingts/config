@@ -23,6 +23,7 @@ domain_set:
   - h5.udrig.com
   - api.ip.sb
   - kuaishou.httpdns.pro
+  - g.h5gdsvip.com
 domain_suffix_set:
   - 00cdn.com
   - 0123456789.com
@@ -3714,6 +3715,7 @@ domain_suffix_set:
   - dancf.com
   - hlgdata.com
   - alibabachengdun.com
+  - easytomessage.com
 domain_keyword_set:
   - .tmall.com
   - alicdn

@@ -1,8 +1,5 @@
 no_resolve: true
-domain_set:
-  - upc.zztfly.com
 domain_suffix_set:
   - pangolin-sdk-toutiao1.com
-ip_cidr_set:
-  - 198.18.0.0/15
-  
+domain_regex_set:
+  - ^ad\..*|^ads\..*
