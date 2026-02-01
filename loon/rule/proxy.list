@@ -824,3 +824,16 @@ DOMAIN,yt3.ggpht.com
 DOMAIN-SUFFIX,youplay-app.com
 # > Egern
 DOMAIN-KEYWORD,egern
+# > Outlook
+DOMAIN-SUFFIX,office.com
+DOMAIN-SUFFIX,office.net
+DOMAIN-SUFFIX,office365.com
+DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,skype.com
+DOMAIN-SUFFIX,liadm.com
+DOMAIN-SUFFIX,newyorktimesinfo.com
+DOMAIN-SUFFIX,singular.net
+DOMAIN-SUFFIX,static.microsoft
+DOMAIN-SUFFIX,adnxs.com
+DOMAIN-SUFFIX,sparkpost.com
