@@ -829,8 +829,11 @@ DOMAIN-SUFFIX,office.com
 DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,live.com
+DOMAIN-SUFFIX,3lift.com
 DOMAIN-SUFFIX,microsoftonline.com
 DOMAIN-SUFFIX,events.data.microsoft.com
+DOMAIN-SUFFIX,prod.mos.microsoft.com
+DOMAIN-SUFFIX,csp.microsoft.com
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,liadm.com
 DOMAIN-SUFFIX,newyorktimesinfo.com
