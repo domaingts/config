@@ -676,6 +676,8 @@ domain_suffix_set:
   - ytimg.com
   - returnyoutubedislikeapi.com
   - youplay-app.com
+  - czbooks.net
+  - hjwzw.com
 domain_keyword_set:
   - google
   - .blogspot.
