@@ -830,6 +830,7 @@ DOMAIN-SUFFIX,office.net
 DOMAIN-SUFFIX,office365.com
 DOMAIN-SUFFIX,live.com
 DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,events.data.microsoft.com
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,liadm.com
 DOMAIN-SUFFIX,newyorktimesinfo.com
