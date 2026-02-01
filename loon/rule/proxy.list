@@ -822,3 +822,5 @@ DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
 # > YouPlay
 DOMAIN-SUFFIX,youplay-app.com
+# > Egern
+DOMAIN-KEYWORD,egern
