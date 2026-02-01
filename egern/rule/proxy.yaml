@@ -680,7 +680,11 @@ domain_suffix_set:
   - office.net
   - office365.com
   - live.com
+  - 3lift.com
   - microsoftonline.com
+  - events.data.microsoft.com
+  - prod.mos.microsoft.com
+  - csp.microsoft.com
   - skype.com
   - liadm.com
   - newyorktimesinfo.com
