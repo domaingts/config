@@ -115,6 +115,8 @@ domain_set:
   - dfp6rglgjqszk.cloudfront.net
   - youtubei.googleapis.com
   - yt3.ggpht.com
+  - vscode-sync.trafficmanager.net
+  - api-js.mixpanel.com
 domain_suffix_set:
   - 500px.com
   - 9cache.com
@@ -692,6 +694,14 @@ domain_suffix_set:
   - static.microsoft
   - adnxs.com
   - sparkpost.com
+  - eu.org
+  - gitflic.ru
+  - termius.com
+  - akile.io
+  - acck.io
+  - exp-tas.com
+  - gitkraken.dev
+  - gitkraken.
 domain_keyword_set:
   - google
   - .blogspot.
