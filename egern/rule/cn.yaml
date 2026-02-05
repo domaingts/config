@@ -24,6 +24,7 @@ domain_set:
   - api.ip.sb
   - kuaishou.httpdns.pro
   - g.h5gdsvip.com
+  - time.apple.com
 domain_suffix_set:
   - 00cdn.com
   - 0123456789.com
