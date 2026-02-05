@@ -1,4 +1,7 @@
 no_resolve: true
+domain_set:
+  - a.magsrv.com
+  - mvp.dlxk.com
 domain_suffix_set:
   - analytics.tiktok.com
   - bds.snssdk.com
