@@ -702,6 +702,8 @@ domain_suffix_set:
   - exp-tas.com
   - gitkraken.dev
   - gitkraken.com
+  - gallerycdn.vsassets.io
+  - vscode-cdn.net
 domain_keyword_set:
   - google
   - .blogspot.
