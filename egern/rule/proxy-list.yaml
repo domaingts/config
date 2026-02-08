@@ -632,6 +632,7 @@ domain_set:
   - yangzhi.app
   - yt3.googleusercontent.com
   - zeenews-fonts.s3.amazonaws.com
+  - youplay-app.com
 domain_suffix_set:
   - 000webhost.com
   - 01.org
