@@ -636,3 +636,5 @@ domain_suffix_set:
   - ads-api.duolingo.com
   - metrics.duolingo.com
   - analytics.vpc.duolingo.com
+domain_regex_set:
+  - ^ad\..*|^ads\..*
