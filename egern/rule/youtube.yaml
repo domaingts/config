@@ -1,6 +1,8 @@
 no_resolve: true
 domain_set:
   - yt3.googleusercontent.com
+  - youplay-app.com
+  - returnyoutubedislikeapi.com
 domain_suffix_set:
   - youtube
   - ggpht.com

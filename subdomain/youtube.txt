@@ -20,3 +20,5 @@ youtubemobilesupport.com
 yt.be
 ytimg.com
 full:yt3.googleusercontent.com
+full:youplay-app.com
+full:returnyoutubedislikeapi.com
