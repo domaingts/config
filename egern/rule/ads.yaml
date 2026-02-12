@@ -39,6 +39,7 @@ domain_set:
   - bloodhound.spotify.com
   - analytics.google.com
   - disney.my.sentry.io
+  - analytics.adjust.io
 domain_suffix_set:
   - tsyndicate.com
   - yfanads.cn
