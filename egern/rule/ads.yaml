@@ -636,5 +636,14 @@ domain_suffix_set:
   - ads-api.duolingo.com
   - metrics.duolingo.com
   - analytics.vpc.duolingo.com
+  - cloudflareinsights.com
+  - mobilefuse.com
+  - adjust.com
+  - adnxs.net
+  - adnxs.com
+  - liadm.com
+  - magsrv.com
+  - histats.com
+  - appsflyer.com
 domain_regex_set:
   - ^ad\..*|^ads\..*
