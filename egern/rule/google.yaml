@@ -210,8 +210,10 @@ domain_suffix_set:
   - google.co
   - google.co.jp
   - google.co.kr
+  - google.co.uk
   - google.com
   - google.com.hk
+  - google.com.sg
   - google.com.tw
   - google.dev
   - google.md
