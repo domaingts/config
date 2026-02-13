@@ -1418,6 +1418,7 @@ domain_suffix_set:
   - alibabacloud.com.my
   - alibabacloud.com.sg
   - alibabacloud.com.tw
+  - alicesw.com
   - alicloud.com
   - alienware.ae
   - alienware.at
@@ -6421,6 +6422,7 @@ domain_suffix_set:
   - dlsite.jp
   - dlsitenews.com
   - dlsitestudio.com
+  - dlxk.com
   - dlyoutube.com
   - dm-event.net
   - dm530.net
@@ -9104,6 +9106,7 @@ domain_suffix_set:
   - git.io
   - gitbook.com
   - gitbook.io
+  - gitflic.ru
   - github.ai
   - github.blog
   - github.com
@@ -11196,6 +11199,7 @@ domain_suffix_set:
   - isgreat.org
   - isheppc.com
   - ishr.ch
+  - isif.net
   - isiknowledge.com
   - iskoot.com
   - islam.org.hk
@@ -11284,6 +11288,7 @@ domain_suffix_set:
   - iwork.se
   - iwork.wang
   - iwyn138.com
+  - ixdzs.hk
   - ixnxx.tv
   - ixquick.com
   - ixsystems.com
@@ -16590,6 +16595,7 @@ domain_suffix_set:
   - quanben-xiaoshuo.com
   - quanben.io
   - quantil.com
+  - quantumult.app
   - quatrowireless.com
   - quatrum.com.br
   - quay.io
@@ -21481,6 +21487,7 @@ domain_suffix_set:
   - wwwpaypass.com
   - wwwpornhub.pro
   - wwwwebay.com
+  - wxdzs.net
   - wxoyt.com
   - wxw.cat
   - wxw.moe
@@ -22408,6 +22415,7 @@ domain_suffix_set:
   - yyjlymb.xyz
   - yysub.net
   - yyvhhbmw.cc
+  - yxvm.com
   - yzld188.top
   - yzzk.com
   - z-lib.fm
@@ -22611,7 +22619,6 @@ domain_suffix_set:
   - zzdh99.com
   - zzgays.com
   - zzycdz.com
-  - eu.org
 domain_regex_set:
   - (^|\.)13mei[5-7]\.buzz$
   - (^|\.)18jmttios[0-9]{2}\.com$
