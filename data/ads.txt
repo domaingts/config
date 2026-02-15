@@ -70,5 +70,11 @@ liadm.com
 magsrv.com
 histats.com
 appsflyer.com
+mixpanel.com
+doubleclick.net
+gvt2.com
+iadsdk.apple.com
+collector.github.com
 full:analytics.adjust.io
+incoming.telemetry.mozilla.org
 regexp:^ad\..*|^ads\..*
