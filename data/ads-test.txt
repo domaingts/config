@@ -69,6 +69,7 @@ api-adservices.apple.com
 iad.apple.com
 iadsdk.apple.com
 qwapi.com
+metrics.icloud.com
 
 # google-ads
 2mdn-cn.net

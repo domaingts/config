@@ -2,7 +2,6 @@ no_resolve: true
 domain_set:
   - api.statsig.com
   - browser-intake-datadoghq.com
-  - static.cloudflareinsights.com
   - cdn.usefathom.com
   - ai.google.dev
   - makersuite.google.com
