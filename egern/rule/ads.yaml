@@ -62,7 +62,24 @@ domain_suffix_set:
   - iad.apple.com
   - iadsdk.apple.com
   - qwapi.com
+  - metrics-config.icloud.com
   - metrics.icloud.com
+  - appleld.apple.com.t5j2kdkc88dd2m423-verif.info
+  - books-analytics-events.apple.com
+  - drupalmetrics.ppg.apple.com
+  - graffiti-tags.apple.com
+  - iadsdk.apple.com
+  - metrics.apple.com
+  - news-app-events.apple.com
+  - news-events.apple.com
+  - news-sports-events.apple.com
+  - notes-analytics-events.apple.com
+  - securemetrics.apple.com
+  - securemetrics.apple.com.cn
+  - securemvt.apple.com
+  - stocks-analytics-events.apple.com
+  - supportmetrics.apple.com
+  - weather-analytics-events.apple.com
   - 2mdn-cn.net
   - 2mdn.net
   - admob-cn.com
@@ -115,7 +132,12 @@ domain_suffix_set:
   - pagead.l.google.com
   - partnerad.l.google.com
   - urchin.com
+  - collector-cdn.github.com
   - collector.github.com
+  - devgottia.github.io
+  - github.gpuzelenograd.cloudns.be
+  - googleads.github.io
+  - mihoutao1868.github.io
   - copilot-telemetry.githubusercontent.com
   - ad.browser.qq.com
   - ad.qq.com
@@ -353,7 +375,6 @@ domain_suffix_set:
   - gvt2.com
   - iadsdk.apple.com
   - imgsct.cookiebot.com
-  - collector.github.com
   - ads.mozilla.org
   - ads-img.mozilla.org
   - download-stats.mozilla.org
@@ -373,5 +394,6 @@ domain_suffix_set:
   - analytics.adjust.world
   - app.adjust.io
   - app.adjust.world
+  - jpush.cn
 domain_regex_set:
   - ^ad\..*|^ads\..*

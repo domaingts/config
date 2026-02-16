@@ -69,7 +69,24 @@ api-adservices.apple.com
 iad.apple.com
 iadsdk.apple.com
 qwapi.com
+metrics-config.icloud.com
 metrics.icloud.com
+appleld.apple.com.t5j2kdkc88dd2m423-verif.info
+books-analytics-events.apple.com
+drupalmetrics.ppg.apple.com
+graffiti-tags.apple.com
+iadsdk.apple.com
+metrics.apple.com
+news-app-events.apple.com
+news-events.apple.com
+news-sports-events.apple.com
+notes-analytics-events.apple.com
+securemetrics.apple.com
+securemetrics.apple.com.cn
+securemvt.apple.com
+stocks-analytics-events.apple.com
+supportmetrics.apple.com
+weather-analytics-events.apple.com
 
 # google-ads
 2mdn-cn.net
@@ -127,7 +144,12 @@ urchin.com
 full:analytics.google.com
 
 # github-ads
+collector-cdn.github.com
 collector.github.com
+devgottia.github.io
+github.gpuzelenograd.cloudns.be
+googleads.github.io
+mihoutao1868.github.io
 copilot-telemetry.githubusercontent.com
 
 # tencent-ads
@@ -374,7 +396,6 @@ mixpanel.com
 gvt2.com
 iadsdk.apple.com
 imgsct.cookiebot.com
-collector.github.com
 ads.mozilla.org
 ads-img.mozilla.org
 download-stats.mozilla.org
@@ -395,3 +416,5 @@ analytics.adjust.world
 app.adjust.io
 app.adjust.world
 regexp:^ad\..*|^ads\..*
+
+jpush.cn
