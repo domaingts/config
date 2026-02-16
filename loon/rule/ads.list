@@ -59,6 +59,7 @@ DOMAIN-SUFFIX,api-adservices.apple.com
 DOMAIN-SUFFIX,iad.apple.com
 DOMAIN-SUFFIX,iadsdk.apple.com
 DOMAIN-SUFFIX,qwapi.com
+DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN-SUFFIX,2mdn-cn.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,admob-cn.com

@@ -62,6 +62,7 @@ domain_suffix_set:
   - iad.apple.com
   - iadsdk.apple.com
   - qwapi.com
+  - metrics.icloud.com
   - 2mdn-cn.net
   - 2mdn.net
   - admob-cn.com
