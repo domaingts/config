@@ -305,6 +305,12 @@ ykad-data.youku.com
 z.gds.cnzz.com
 
 # other-ads
+referrer.disqus.com
+ad-delivery.net
+pub.network
+html-load.cc
+hotjar.com
+
 adsdk.microsoft.com
 browser.pipe.aria.microsoft.com
 c.microsoft.com
