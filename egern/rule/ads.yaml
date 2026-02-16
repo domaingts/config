@@ -285,6 +285,25 @@ domain_suffix_set:
   - yk-ssp.ad.youku.com
   - ykad-data.youku.com
   - z.gds.cnzz.com
+  - referrer.disqus.com
+  - ad-delivery.net
+  - pub.network
+  - html-load.cc
+  - hotjar.com
+  - adsdk.microsoft.com
+  - browser.pipe.aria.microsoft.com
+  - c.microsoft.com
+  - logs.appsource.microsoft.com
+  - msadsscale.microsoft.com
+  - smetric.ads.microsoft.com
+  - statsfe2.ws.microsoft.com
+  - target.microsoft.com
+  - vortex.data.microsoft.com
+  - wes.df.telemetry.microsoft.com
+  - c.live.com
+  - outlookads.live.com
+  - rad.live.com
+  - rad.msn.com
   - tagtoo.co
   - tagtoo.com
   - holmesmind.com
