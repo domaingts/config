@@ -142,6 +142,17 @@ pagead.l.google.com
 partnerad.l.google.com
 urchin.com
 full:analytics.google.com
+ad-creatives-public.commondatastorage.googleapis.com
+androidtvchannels-pa.googleapis.com
+androidtvwatsonfe-pa.googleapis.com
+clientmetrics-pa.googleapis.com
+clouderrorreporting.googleapis.com
+crashlyticsreports-pa.googleapis.com
+federatedcompute-pa.googleapis.com
+firebaselogging.googleapis.com
+imasdk.googleapis.com
+ogads-pa.googleapis.com
+adtrafficquality.google
 
 # github-ads
 collector-cdn.github.com
@@ -326,6 +337,24 @@ yk-ssp.ad.youku.com
 ykad-data.youku.com
 z.gds.cnzz.com
 
+# yandex-ads
+adfox.yandex.ru
+adfstat.yandex.ru
+adsdk.yandex.ru
+amc.yandex.ru
+an.yandex.ru
+api.appmetrica.yandex.ru
+awaps.yandex.ru
+awsync.yandex.ru
+bs.yandex.ru
+informer.yandex.ru
+kiks.yandex.ru
+log.strm.yandex.ru
+market-click-baobab.yandex.ru
+mc.yandex.ru
+ms.yandex.ru
+uaas.yandex.ru
+
 # other-ads
 referrer.disqus.com
 ad-delivery.net
@@ -418,3 +447,4 @@ app.adjust.world
 regexp:^ad\..*|^ads\..*
 
 jpush.cn
+crashlytics.com
