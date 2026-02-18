@@ -4,7 +4,16 @@ domain_set:
   - browser-intake-datadoghq.com
   - cdn.usefathom.com
   - ai.google.dev
-  - makersuite.google.com
+  - alkalicore-pa.clients6.google.com
+  - alkalimakersuite-pa.clients6.google.com
+  - antigravity-pa.googleapis.com
+  - antigravity.googleapis.com
+  - cloudaicompanion.googleapis.com
+  - cloudcode-pa.googleapis.com
+  - daily-cloudcode-pa.googleapis.com
+  - notebooklm-pa.googleapis.com
+  - notebooklm.googleapis.com
+  - webchannel-alkalimakersuite-pa.clients6.google.com
   - api.msn.com
   - assets.msn.com
   - copilot.microsoft.com
@@ -43,19 +52,31 @@ domain_suffix_set:
   - claudeusercontent.com
   - cursor.sh
   - dify.ai
-  - gemini.google.com
-  - apis.google.com
-  - clients6.google.com
-  - clients4.google.com
+  - ai.studio
+  - aida.googleapis.com
+  - aisandbox-pa.googleapis.com
+  - aistudio.google.com
+  - antigravity-unleash.goog
+  - antigravity.google
+  - bard.google.com
   - deepmind.com
   - deepmind.google
+  - geller-pa.googleapis.com
+  - gemini.google
+  - gemini.google.com
   - generativeai.google
-  - colab.google.com
-  - colab.research.google.com
-  - developerprofiles.google.com
-  - googleusercontent.com
-  - googleapis.com
+  - generativelanguage.googleapis.com
+  - jules.google
+  - jules.google.com
+  - labs.google
+  - labs.google.com
+  - makersuite.google.com
+  - notebooklm.google
+  - notebooklm.google.com
+  - opal.google
+  - opal.google.com
   - proactivebackend-pa.googleapis.com
+  - robinfrontend-pa.googleapis.com
   - grazie.ai
   - meta.ai
   - meta.com
@@ -78,5 +99,3 @@ domain_suffix_set:
   - poecdn.net
   - x.ai
   - grok.com
-  - notebooklm.google.com
-  - notebooklm.google
