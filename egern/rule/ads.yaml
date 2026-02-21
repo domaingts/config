@@ -66,8 +66,10 @@ domain_suffix_set:
   - adobecorp.data.adobedc.net
   - adping.qq.com
   - adpm.app.qq.com
+  - ads-game-configuration-master.ads.prd.ie.internal.unity3d.com
   - ads-img.mozilla.org
   - ads-pixiv.net
+  - ads-privacy-api.prd.mz.internal.unity3d.com
   - ads-union.jd.com
   - ads.bing.com
   - ads.linkedin.com
@@ -123,12 +125,14 @@ domain_suffix_set:
   - analytics.adjust.io
   - analytics.adjust.net.in
   - analytics.adjust.world
+  - analytics.cloud.unity3d.com
   - analytics.pointdrive.linkedin.com
   - analytics.tiktok.com
   - androidtvchannels-pa.googleapis.com
   - androidtvwatsonfe-pa.googleapis.com
   - api-adservices.apple.com
   - api.appmetrica.yandex.ru
+  - api.uca.cloud.unity3d.com
   - app-analytics-services-att.com
   - app-analytics-services.com
   - app-measurement-cn.com
@@ -140,6 +144,7 @@ domain_suffix_set:
   - appsflyer.com
   - ar.umeng.com
   - aspect-upush.umeng.com
+  - assistads.net
   - assp.sohu.com
   - atanx.alicdn.com
   - atanx2.alicdn.com
@@ -168,6 +173,7 @@ domain_suffix_set:
   - c.microsoft.com
   - campfirecroutondecorator.com
   - ccs.umeng.com
+  - cdp.cloud.unity3d.com
   - chnsrv.com
   - clarity.ms
   - clck.yandex.com
@@ -176,10 +182,12 @@ domain_suffix_set:
   - cloudflareinsights.com
   - cnlogs.umeng.com
   - cnlogs.umengcloud.com
+  - collect.analytics.unity3d.com
   - collector-cdn.github.com
   - collector.github.com
   - commerce.bing.com
   - compass-fit.jp
+  - config.uca.cloud.unity3d.com
   - conversions-config.reddit.com
   - copilot-telemetry.githubusercontent.com
   - cps.360buy.com
@@ -189,6 +197,7 @@ domain_suffix_set:
   - ctobsnssdk.com
   - d.reddit.com
   - dacdn.visualwebsiteoptimizer.com
+  - data-optout-service.uca.cloud.unity3d.com
   - demdex.net
   - dev.visualwebsiteoptimizer.com
   - devgottia.github.io
@@ -203,8 +212,12 @@ domain_suffix_set:
   - e.qq.com
   - e.stat.ykimg.com
   - edge.adobedc.net
+  - eloqua-tracking.unity3d.com
+  - eloqua-trackings.unity3d.com
   - ems.youku.com
   - error-tracking.reddit.com
+  - events.iap.unity3d.com
+  - events.mz.unity3d.com
   - events.reddit.com
   - extlog.snssdk.com
   - fcmatch.google.com
@@ -255,9 +268,11 @@ domain_suffix_set:
   - hq-tracking.qq.com
   - html-load.cc
   - htrace.wetvinfo.com
+  - hwstats.unity3d.com
   - i.singular.net
   - i.snssdk.com
   - iad.apple.com
+  - iads.unity3d.com
   - iadsdk.apple.com
   - iadsdk.apple.com
   - iadsdk.apple.com
@@ -297,6 +312,8 @@ domain_suffix_set:
   - mc.yandex.ru
   - mcs.snssdk.com
   - mdt.qq.com
+  - mediation-tracking.prd.mz.internal.unity3d.com
+  - mediation.unity3d.com
   - metrics-config.icloud.com
   - metrics.apple.com
   - metrics.icloud.com
@@ -347,6 +364,7 @@ domain_suffix_set:
   - partnerad.l.google.com
   - passport-log.youku.com
   - pb.i.sogou.com
+  - perf-events.cloud.unity3d.com
   - pgdt.gtimg.cn
   - pglstatp-sdk-toutiao.com
   - pglstatp-snssdk-toutiao.com
@@ -357,8 +375,10 @@ domain_suffix_set:
   - pixel.reddit.com
   - pl.youku.com
   - plbslog.umeng.com
+  - pls.prd.mz.internal.unity3d.com
   - pmir.3g.qq.com
   - pub.network
+  - publisher-event.ads.prd.ie.internal.unity3d.com
   - push.qq.com
   - pv.hd.sohu.com
   - pv.sohu.com
@@ -376,6 +396,7 @@ domain_suffix_set:
   - reke.at.sohu.com
   - report.qqweb.qq.com
   - report.tencentmusic.com
+  - reproio.com
   - resolve.umeng.com
   - retcode.taobao.com
   - rlcdn.com
@@ -409,6 +430,7 @@ domain_suffix_set:
   - tcss.qq.com
   - telemetry.proton.me
   - theta.sogoucdn.com
+  - thind-gke-euw.prd.data.corp.unity3d.com
   - tmead.y.qq.com
   - tmeadcomm.y.qq.com
   - tns.simba.taobao.com
@@ -416,14 +438,17 @@ domain_suffix_set:
   - trace.qq.com
   - track.lc.quark.cn
   - track.sohu.com
+  - tracking.prd.mz.internal.unity3d.com
   - treasuredata.com
   - ttnet.yandex.com.tr
   - uaas.yandex.ru
   - ugdtimg.com
   - ulogs.umeng.com
   - ulogs.umengcloud.com
+  - unityads.unity3d.com
   - uranus.sogou.com
   - urchin.com
+  - userreporting.cloud.unity3d.com
   - utoken.umeng.com
   - v6-adashx.ut.amap.com
   - v6-adashx.ut.cainiao.com
