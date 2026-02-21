@@ -232,8 +232,6 @@
 2ksports.com
 2kweb.online
 2lib.org
-2mdn-cn.net
-2mdn.net
 30plusgirls.com
 32bm.cc
 32red.com
@@ -706,15 +704,12 @@ adguardvpn.com
 adhelpnews.com
 adinst.com
 admetrica.ru
-admob-cn.com
-admob.com
 adobepress.ch
 adorevids.com
 adpl.org.hk
 adporn.cc
 adpornu.xyz
 ads-twitter.com
-adsense.com
 adskcloud.com
 adskcloud.net
 adskeng.net
@@ -788,7 +783,6 @@ advancediddetection.com
 advanscene.com
 adventofcode.com
 advertfan.com
-advertisercommunity.com
 adx.promo
 aeasyshop.com
 aebn.com
@@ -1517,10 +1511,7 @@ apole.com
 apornotube.net
 aporntv.com
 apornvideo.com
-app-analytics-services.com
 app-dynamics.com
-app-measurement-cn.com
-app-measurement.com
 app-store.wang
 app.box.com
 app.smartmailcloud.com
@@ -4887,7 +4878,6 @@ clementine-player.org
 click-url.com
 clickedu.co.uk
 clickserve.cc-dt.com
-clickserver.googleads.com
 climate-server.com
 clinica-tibet.ru
 clinical-videos.com
@@ -4933,7 +4923,6 @@ cloudflarebrowser.com
 cloudflarechallenge.com
 cloudflareclient.com
 cloudflarecp.com
-cloudflareinsights.com
 cloudflareok.com
 cloudflarepartners.com
 cloudflareportal.com
@@ -6157,8 +6146,6 @@ dotvpn.com
 doub.io
 doubibackup.com
 doubiyunbackup.com
-doubleclick-cn.net
-doubleclick.net
 doublethinklab.org
 douchi.space
 doufurufabu.xyz
@@ -8884,8 +8871,6 @@ goodsdunk.net
 goodsexporn.org
 goodsrv.de
 goofind.com
-google-analytics-cn.com
-google-analytics.com
 google.hk
 googleapis-cn.com
 googleapps-cn.com
@@ -19599,7 +19584,6 @@ uraban.me
 urasma.com
 urbandictionary.com
 urbansurvival.com
-urchin.com
 urduvoa.com
 urhtbooks.com
 urlborg.com
@@ -22264,11 +22248,8 @@ full:api.viu.now.com
 full:apl-hamivideo.cdn.hinet.net
 full:apple-tv-plus-press.apple.com
 full:apple.com.akadns.net
-full:appleworldwidedeveloper.hb-api.omtrdc.net
-full:appleworldwidedeveloper.sc.omtrdc.net
 full:as-dash-uk-live.akamaized.net
 full:as-hls-uk-live.akamaized.net
-full:asahishimbun.sc.omtrdc.net
 full:assets.ppy.sh
 full:audio-ak-spotify-com.akamaized.net
 full:audio4-ak-spotify-com.akamaized.net
@@ -22279,7 +22260,6 @@ full:azuremarketplace.microsoft.com
 full:bbs.boingboing.net
 full:bcovlive-a.akamaihd.net
 full:bcsecure01-a.akamaihd.net
-full:beatselectronicsllc.tt.omtrdc.net
 full:beck-online.beck.de
 full:bingsettingssearch.trafficmanager.net
 full:blizzard.nefficient.co.kr
@@ -22367,7 +22347,6 @@ full:ds0h3roq6wcgc.cloudfront.net
 full:dtlgalleryint.cloudapp.net
 full:dykkng5hnh52u.cloudfront.net
 full:e122475.dscg.akamaiedge.net
-full:ea.tt.omtrdc.net
 full:eaassets-a.akamaihd.net
 full:ebay-25-assets.s3-us-west-1.amazonaws.com
 full:ecapi-pchome.cdn.hinet.net
@@ -22418,7 +22397,6 @@ full:lgelectronics.122.2o7.net
 full:licdn.cn.cdn20.com
 full:linear-abematv.akamaized.net
 full:link.theplatform.com
-full:linkedin.sc.omtrdc.net
 full:live-patreon-marketing.pantheonsite.io
 full:location.microsoft.com
 full:lolstatic-a.akamaihd.net
@@ -22432,8 +22410,6 @@ full:mscrl.microsoft.com
 full:msh.amazon.co.uk
 full:muse.jhu.edu
 full:mwf-service.akamaized.net
-full:nab.demdex.net
-full:nationalaustraliaban.tt.omtrdc.net
 full:netflix.com.edgesuite.net
 full:notary-submissions-prod.s3-accelerate.amazonaws.com
 full:notary-submissions-prod.s3.us-west-2.amazonaws.com
@@ -22461,7 +22437,6 @@ full:ntp5.ntp-servers.net
 full:ntp6.ntp-servers.net
 full:ntp7.ntp-servers.net
 full:nurofensk-prod-env.eu-west-1.elasticbeanstalk.com
-full:nvidia.tt.omtrdc.net
 full:ocsp.microsoft.com
 full:officecdn-microsoft-com.akamaized.net
 full:onekey.zendesk.com
@@ -22485,7 +22460,6 @@ full:pubg1.battleye.com
 full:public-us-pingsx.api.clonoth.com
 full:push-apple.com.akadns.net
 full:pvr-hamivideo.cdn.hinet.net
-full:qualcomm.sc.omtrdc.net
 full:rink.hockeyapp.net
 full:roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
 full:roblox-poc.global.ssl.fastly.net
@@ -22520,8 +22494,6 @@ full:spotify.com.edgesuite.net
 full:spotify.map.fastly.net
 full:spotify.map.fastlylb.net
 full:ssl-lvlt.cdn.ea.com
-full:standchartbank.sc.omtrdc.net
-full:standchartbank.tt.omtrdc.net
 full:static-hamivideo.cdn.hinet.net
 full:static.siege-amazon.com
 full:statics-marketingsites-eas-ms-com.akamaized.net
@@ -22594,7 +22566,6 @@ full:uts-api.itunes.apple.com
 full:ve-dash-uk-live.akamaized.net
 full:ve-uhd-push-uk-live.akamaized.net
 full:videos-rockstargames-com.akamaized.net
-full:vmware.tt.omtrdc.net
 full:vod-abematv.akamaized.net
 full:vod-dash-uk-live.akamaized.net
 full:vod-dash-ww-live.akamaized.net
