@@ -397,7 +397,6 @@ clarity.ms
 omtrdc.net
 demdex.net
 3lift.com
-alb.reddit.com
 ads.bing.com
 adserver.bing.com
 bat.bing.com
@@ -448,3 +447,25 @@ regexp:^ad\..*|^ads\..*
 
 jpush.cn
 crashlytics.com
+
+i.singular.net
+sdk-api-v1.singular.net
+skadnetwork.singular.net
+web-sdk-cdn.singular.net
+chnsrv.com
+campfirecroutondecorator.com
+appmetrica.yandex.com
+clck.yandex.com
+mc.yandex.com
+ttnet.yandex.com.tr
+alb.reddit.com
+conversions-config.reddit.com
+d.reddit.com
+error-tracking.reddit.com
+events.reddit.com
+pixel-config.reddit.com
+pixel.reddit.com
+w3-reporting-nel.reddit.com
+w3-reporting.reddit.com
+rlcdn.com
+lngtd.com
