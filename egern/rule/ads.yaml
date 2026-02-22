@@ -194,6 +194,7 @@ domain_suffix_set:
   - crashlytics.com
   - crashlyticsreports-pa.googleapis.com
   - crazyegg.com
+  - creative.myavlive.com
   - ctobsnssdk.com
   - d.reddit.com
   - dacdn.visualwebsiteoptimizer.com
@@ -413,6 +414,7 @@ domain_suffix_set:
   - siteintercept.qualtrics.com
   - skadnetwork.singular.net
   - smetric.ads.microsoft.com
+  - snaptrckr.fun
   - sngmta.qq.com
   - ssp.hinet.net
   - stat.m.jd.com
@@ -440,6 +442,7 @@ domain_suffix_set:
   - track.sohu.com
   - tracking.prd.mz.internal.unity3d.com
   - treasuredata.com
+  - tsyndicate.com
   - ttnet.yandex.com.tr
   - uaas.yandex.ru
   - ugdtimg.com
@@ -465,6 +468,8 @@ domain_suffix_set:
   - wit.qq.com
   - wuliao.epro.sogou.com
   - www.visualwebsiteoptimizer.com
+  - xy.fbcdn.net
+  - xz.fbcdn.net
   - yk-ssp.ad.youku.com
   - ykad-data.youku.com
   - z.gds.cnzz.com
