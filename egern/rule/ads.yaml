@@ -54,6 +54,8 @@ domain_suffix_set:
   - adfilter.imtt.qq.com
   - adfox.yandex.ru
   - adfstat.yandex.ru
+  - adinplay-venatus.workers.dev
+  - adinplay.workers.dev
   - adjust.com
   - admob-cn.com
   - admob.com
@@ -101,6 +103,7 @@ domain_suffix_set:
   - adtrack.quark.cn
   - adtrafficquality.google
   - adtrafficquality.google
+  - adunblock1.static-cloudflare.workers.dev
   - adv-ettoday.cdn.hinet.net
   - adv-sv-show.focus.cn
   - adv-sv-stat.focus.cn
@@ -139,6 +142,7 @@ domain_suffix_set:
   - app-measurement.com
   - app.adjust.io
   - app.adjust.world
+  - app.sbz.workers.dev
   - appleld.apple.com.t5j2kdkc88dd2m423-verif.info
   - appmetrica.yandex.com
   - appsflyer.com
@@ -150,9 +154,11 @@ domain_suffix_set:
   - atanx2.alicdn.com
   - atm.youku.com
   - atrace.chelaile.net.cn
+  - aucdn.net
   - audid.umeng.com
   - awaps.yandex.ru
   - awsync.yandex.ru
+  - az-neverblock.aznude.workers.dev
   - badjs.weixinbridge.com
   - baichuan-sdk.alicdn.com
   - bat.bing.com
@@ -197,11 +203,13 @@ domain_suffix_set:
   - creative.myavlive.com
   - ctobsnssdk.com
   - d.reddit.com
+  - dable.io
   - dacdn.visualwebsiteoptimizer.com
   - data-optout-service.uca.cloud.unity3d.com
   - demdex.net
   - dev.visualwebsiteoptimizer.com
   - devgottia.github.io
+  - diffusedpassionquaking.com
   - dig.bdurl.net
   - doubleclick-cn.net
   - doubleclick.cn
@@ -210,6 +218,7 @@ domain_suffix_set:
   - download-stats.mozilla.org
   - drupalmetrics.ppg.apple.com
   - dualstack-logs.amap.com
+  - dust-0001.delorazahnow.workers.dev
   - e.qq.com
   - e.stat.ykimg.com
   - edge.adobedc.net
@@ -227,6 +236,7 @@ domain_suffix_set:
   - fourier.taobao.com
   - fpb.sohu.com
   - g.click.taobao.com
+  - gcp.fasthorse.workers.dev
   - gdt.qq.com
   - geo.mozilla.org
   - gia.jd.com
@@ -282,6 +292,8 @@ domain_suffix_set:
   - imgsct.cookiebot.com
   - imp.go.sohu.com
   - incoming.telemetry.mozilla.org
+  - increaserev2.static-cloudflare.workers.dev
+  - increaserev3.static-cloudflare.workers.dev
   - informer.yandex.ru
   - inte.sogou.com
   - inte.sogoucdn.com
@@ -375,6 +387,7 @@ domain_suffix_set:
   - pixel-config.reddit.com
   - pixel.reddit.com
   - pl.youku.com
+  - plausibleio.workers.dev
   - plbslog.umeng.com
   - pls.prd.mz.internal.unity3d.com
   - pmir.3g.qq.com
@@ -392,9 +405,11 @@ domain_suffix_set:
   - r3.visualwebsiteoptimizer.com
   - rad.live.com
   - rad.msn.com
+  - rapid-glade-cde8.asoumare042024.workers.dev
   - rec5.visualwebsiteoptimizer.com
   - referrer.disqus.com
   - reke.at.sohu.com
+  - removeads.workers.dev
   - report.qqweb.qq.com
   - report.tencentmusic.com
   - reproio.com
@@ -404,6 +419,7 @@ domain_suffix_set:
   - rmonitor.qq.com
   - rtb-trk4.linkedin.com
   - rtb-us-east.linkedin.com
+  - rum-collector.leaderint.workers.dev
   - s-adashx.ut.youku.com
   - sdk-api-v1.singular.net
   - securemetrics.apple.com
@@ -444,6 +460,7 @@ domain_suffix_set:
   - treasuredata.com
   - tsyndicate.com
   - ttnet.yandex.com.tr
+  - tyserving.com
   - uaas.yandex.ru
   - ugdtimg.com
   - ulogs.umeng.com
@@ -464,6 +481,7 @@ domain_suffix_set:
   - w3-reporting.reddit.com
   - weather-analytics-events.apple.com
   - web-sdk-cdn.singular.net
+  - web-vitals-script.leaderint.workers.dev
   - wes.df.telemetry.microsoft.com
   - wit.qq.com
   - wuliao.epro.sogou.com

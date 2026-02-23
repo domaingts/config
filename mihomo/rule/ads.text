@@ -51,6 +51,8 @@ DOMAIN-SUFFIX,adashxgc.ut.taobao.com
 DOMAIN-SUFFIX,adfilter.imtt.qq.com
 DOMAIN-SUFFIX,adfox.yandex.ru
 DOMAIN-SUFFIX,adfstat.yandex.ru
+DOMAIN-SUFFIX,adinplay-venatus.workers.dev
+DOMAIN-SUFFIX,adinplay.workers.dev
 DOMAIN-SUFFIX,adjust.com
 DOMAIN-SUFFIX,admob-cn.com
 DOMAIN-SUFFIX,admob.com
@@ -98,6 +100,7 @@ DOMAIN-SUFFIX,adsview2.qq.com
 DOMAIN-SUFFIX,adtrack.quark.cn
 DOMAIN-SUFFIX,adtrafficquality.google
 DOMAIN-SUFFIX,adtrafficquality.google
+DOMAIN-SUFFIX,adunblock1.static-cloudflare.workers.dev
 DOMAIN-SUFFIX,adv-ettoday.cdn.hinet.net
 DOMAIN-SUFFIX,adv-sv-show.focus.cn
 DOMAIN-SUFFIX,adv-sv-stat.focus.cn
@@ -136,6 +139,7 @@ DOMAIN-SUFFIX,app-measurement-cn.com
 DOMAIN-SUFFIX,app-measurement.com
 DOMAIN-SUFFIX,app.adjust.io
 DOMAIN-SUFFIX,app.adjust.world
+DOMAIN-SUFFIX,app.sbz.workers.dev
 DOMAIN-SUFFIX,appleld.apple.com.t5j2kdkc88dd2m423-verif.info
 DOMAIN-SUFFIX,appmetrica.yandex.com
 DOMAIN-SUFFIX,appsflyer.com
@@ -147,9 +151,11 @@ DOMAIN-SUFFIX,atanx.alicdn.com
 DOMAIN-SUFFIX,atanx2.alicdn.com
 DOMAIN-SUFFIX,atm.youku.com
 DOMAIN-SUFFIX,atrace.chelaile.net.cn
+DOMAIN-SUFFIX,aucdn.net
 DOMAIN-SUFFIX,audid.umeng.com
 DOMAIN-SUFFIX,awaps.yandex.ru
 DOMAIN-SUFFIX,awsync.yandex.ru
+DOMAIN-SUFFIX,az-neverblock.aznude.workers.dev
 DOMAIN-SUFFIX,badjs.weixinbridge.com
 DOMAIN-SUFFIX,baichuan-sdk.alicdn.com
 DOMAIN-SUFFIX,bat.bing.com
@@ -194,11 +200,13 @@ DOMAIN-SUFFIX,crazyegg.com
 DOMAIN-SUFFIX,creative.myavlive.com
 DOMAIN-SUFFIX,ctobsnssdk.com
 DOMAIN-SUFFIX,d.reddit.com
+DOMAIN-SUFFIX,dable.io
 DOMAIN-SUFFIX,dacdn.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,data-optout-service.uca.cloud.unity3d.com
 DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,dev.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,devgottia.github.io
+DOMAIN-SUFFIX,diffusedpassionquaking.com
 DOMAIN-SUFFIX,dig.bdurl.net
 DOMAIN-SUFFIX,doubleclick-cn.net
 DOMAIN-SUFFIX,doubleclick.cn
@@ -207,6 +215,7 @@ DOMAIN-SUFFIX,doubleclick.net
 DOMAIN-SUFFIX,download-stats.mozilla.org
 DOMAIN-SUFFIX,drupalmetrics.ppg.apple.com
 DOMAIN-SUFFIX,dualstack-logs.amap.com
+DOMAIN-SUFFIX,dust-0001.delorazahnow.workers.dev
 DOMAIN-SUFFIX,e.qq.com
 DOMAIN-SUFFIX,e.stat.ykimg.com
 DOMAIN-SUFFIX,edge.adobedc.net
@@ -224,6 +233,7 @@ DOMAIN-SUFFIX,firebaselogging.googleapis.com
 DOMAIN-SUFFIX,fourier.taobao.com
 DOMAIN-SUFFIX,fpb.sohu.com
 DOMAIN-SUFFIX,g.click.taobao.com
+DOMAIN-SUFFIX,gcp.fasthorse.workers.dev
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,geo.mozilla.org
 DOMAIN-SUFFIX,gia.jd.com
@@ -279,6 +289,8 @@ DOMAIN-SUFFIX,img-x.jd.com
 DOMAIN-SUFFIX,imgsct.cookiebot.com
 DOMAIN-SUFFIX,imp.go.sohu.com
 DOMAIN-SUFFIX,incoming.telemetry.mozilla.org
+DOMAIN-SUFFIX,increaserev2.static-cloudflare.workers.dev
+DOMAIN-SUFFIX,increaserev3.static-cloudflare.workers.dev
 DOMAIN-SUFFIX,informer.yandex.ru
 DOMAIN-SUFFIX,inte.sogou.com
 DOMAIN-SUFFIX,inte.sogoucdn.com
@@ -372,6 +384,7 @@ DOMAIN-SUFFIX,pingjs.qq.com
 DOMAIN-SUFFIX,pixel-config.reddit.com
 DOMAIN-SUFFIX,pixel.reddit.com
 DOMAIN-SUFFIX,pl.youku.com
+DOMAIN-SUFFIX,plausibleio.workers.dev
 DOMAIN-SUFFIX,plbslog.umeng.com
 DOMAIN-SUFFIX,pls.prd.mz.internal.unity3d.com
 DOMAIN-SUFFIX,pmir.3g.qq.com
@@ -389,9 +402,11 @@ DOMAIN-SUFFIX,r2.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,r3.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,rad.live.com
 DOMAIN-SUFFIX,rad.msn.com
+DOMAIN-SUFFIX,rapid-glade-cde8.asoumare042024.workers.dev
 DOMAIN-SUFFIX,rec5.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,referrer.disqus.com
 DOMAIN-SUFFIX,reke.at.sohu.com
+DOMAIN-SUFFIX,removeads.workers.dev
 DOMAIN-SUFFIX,report.qqweb.qq.com
 DOMAIN-SUFFIX,report.tencentmusic.com
 DOMAIN-SUFFIX,reproio.com
@@ -401,6 +416,7 @@ DOMAIN-SUFFIX,rlcdn.com
 DOMAIN-SUFFIX,rmonitor.qq.com
 DOMAIN-SUFFIX,rtb-trk4.linkedin.com
 DOMAIN-SUFFIX,rtb-us-east.linkedin.com
+DOMAIN-SUFFIX,rum-collector.leaderint.workers.dev
 DOMAIN-SUFFIX,s-adashx.ut.youku.com
 DOMAIN-SUFFIX,sdk-api-v1.singular.net
 DOMAIN-SUFFIX,securemetrics.apple.com
@@ -441,6 +457,7 @@ DOMAIN-SUFFIX,tracking.prd.mz.internal.unity3d.com
 DOMAIN-SUFFIX,treasuredata.com
 DOMAIN-SUFFIX,tsyndicate.com
 DOMAIN-SUFFIX,ttnet.yandex.com.tr
+DOMAIN-SUFFIX,tyserving.com
 DOMAIN-SUFFIX,uaas.yandex.ru
 DOMAIN-SUFFIX,ugdtimg.com
 DOMAIN-SUFFIX,ulogs.umeng.com
@@ -461,6 +478,7 @@ DOMAIN-SUFFIX,w3-reporting-nel.reddit.com
 DOMAIN-SUFFIX,w3-reporting.reddit.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,web-sdk-cdn.singular.net
+DOMAIN-SUFFIX,web-vitals-script.leaderint.workers.dev
 DOMAIN-SUFFIX,wes.df.telemetry.microsoft.com
 DOMAIN-SUFFIX,wit.qq.com
 DOMAIN-SUFFIX,wuliao.epro.sogou.com
