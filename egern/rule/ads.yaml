@@ -25,6 +25,7 @@ domain_suffix_set:
   - a.alimama.cn
   - aaid.umeng.com
   - acjs.aliyun.com
+  - acquiredeceasedundress.com
   - ad-creatives-public.commondatastorage.googleapis.com
   - ad-delivery.net
   - ad-ettoday.cdn.hinet.net
@@ -141,6 +142,7 @@ domain_suffix_set:
   - app-analytics-services.com
   - app-measurement-cn.com
   - app-measurement.com
+  - app-performance.music.amazon.dev
   - app.adjust.io
   - app.adjust.world
   - app.sbz.workers.dev
@@ -168,9 +170,11 @@ domain_suffix_set:
   - beacon.cdn.qq.com
   - beacon.qq.com
   - beaconcdn.qq.com
+  - bongacams11.com
   - books-analytics-events.apple.com
   - browser.pipe.aria.microsoft.com
   - bs.yandex.ru
+  - btloader.com
   - btrace.qq.com
   - bugly.qq.com
   - byteadverts.com
@@ -184,6 +188,7 @@ domain_suffix_set:
   - chnsrv.com
   - clarity.ms
   - clck.yandex.com
+  - clientlogger.marketplace.aws.a2z.com
   - clientmetrics-pa.googleapis.com
   - clouderrorreporting.googleapis.com
   - cloudflareinsights.com
@@ -202,11 +207,13 @@ domain_suffix_set:
   - crashlyticsreports-pa.googleapis.com
   - crazyegg.com
   - creative.myavlive.com
+  - criteo.net
   - ctobsnssdk.com
   - d.reddit.com
   - dable.io
   - dacdn.visualwebsiteoptimizer.com
   - data-optout-service.uca.cloud.unity3d.com
+  - demandingoverdriveunthread.com
   - demdex.net
   - dev.visualwebsiteoptimizer.com
   - devgottia.github.io
@@ -218,6 +225,7 @@ domain_suffix_set:
   - doubleclick.com
   - doubleclick.net
   - download-stats.mozilla.org
+  - dreamlikefostergala.com
   - drupalmetrics.ppg.apple.com
   - dualstack-logs.amap.com
   - dust-0001.delorazahnow.workers.dev
@@ -231,10 +239,12 @@ domain_suffix_set:
   - events.iap.unity3d.com
   - events.mz.unity3d.com
   - events.reddit.com
+  - events.watchtower.imdbtv.amazon.dev
   - extlog.snssdk.com
   - fcmatch.google.com
   - federatedcompute-pa.googleapis.com
   - firebaselogging.googleapis.com
+  - floors.dev
   - fourier.taobao.com
   - fpb.sohu.com
   - g.click.taobao.com
@@ -268,6 +278,7 @@ domain_suffix_set:
   - googlevads-cn.com
   - graffiti-tags.apple.com
   - guanggaoad.youku.com
+  - guoshipartners.com
   - gvt2.com
   - h-adashx.ut.ele.me
   - h-adashx.ut.taobao.com
@@ -304,8 +315,10 @@ domain_suffix_set:
   - jzt.jd.com
   - kiks.yandex.ru
   - liadm.com
+  - live.primis.tech
   - lngtd.com
   - log.intellimize.co
+  - log.shortbread.analytics.console.aws.a2z.com
   - log.strm.yandex.ru
   - log.tbs.qq.com
   - log.umtrack.com
@@ -332,7 +345,10 @@ domain_suffix_set:
   - metrics-config.icloud.com
   - metrics.apple.com
   - metrics.icloud.com
+  - metrics.imdb.a2z.com
+  - miaozhen.com
   - mihoutao1868.github.io
+  - minerva.devices.a2z.com
   - mixpanel.com
   - mobileads.google.com
   - mobilefuse.com
@@ -393,6 +409,9 @@ domain_suffix_set:
   - plbslog.umeng.com
   - pls.prd.mz.internal.unity3d.com
   - pmir.3g.qq.com
+  - prod.cm.publishers.advertising.a2z.com
+  - prod.tahoe-analytics.publishers.advertising.a2z.com
+  - prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
   - pub.network
   - publisher-event.ads.prd.ie.internal.unity3d.com
   - push.qq.com
@@ -423,12 +442,14 @@ domain_suffix_set:
   - rtb-us-east.linkedin.com
   - rum-collector.leaderint.workers.dev
   - s-adashx.ut.youku.com
+  - scorecardresearch.com
   - sdk-api-v1.singular.net
   - securemetrics.apple.com
   - securemetrics.apple.com.cn
   - securemvt.apple.com
   - sf3-ttcdn-tos.pstatp.com
   - shoppingads.cn
+  - site-config.com
   - siteintercept.qualtrics.com
   - skadnetwork.singular.net
   - smetric.ads.microsoft.com
@@ -448,6 +469,7 @@ domain_suffix_set:
   - target.microsoft.com
   - tce.alicdn.com
   - tcss.qq.com
+  - telemetry.insights.video.a2z.com
   - telemetry.proton.me
   - theta.sogoucdn.com
   - thind-gke-euw.prd.data.corp.unity3d.com
@@ -463,6 +485,7 @@ domain_suffix_set:
   - tsyndicate.com
   - ttnet.yandex.com.tr
   - tyserving.com
+  - tyserving.com
   - uaas.yandex.ru
   - ugdtimg.com
   - ulogs.umeng.com
@@ -477,6 +500,7 @@ domain_suffix_set:
   - v6-adashx.ut.ele.me
   - v6-adashx.ut.taobao.com
   - v6-adashx.ut.youku.com
+  - video-ads.a2z.com
   - vortex.data.microsoft.com
   - w.cnzz.com
   - w3-reporting-nel.reddit.com
