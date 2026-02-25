@@ -67,12 +67,14 @@ DOMAIN-SUFFIX,adnxs1.com
 DOMAIN-SUFFIX,adobecorp.data.adobedc.net
 DOMAIN-SUFFIX,adping.qq.com
 DOMAIN-SUFFIX,adpm.app.qq.com
+DOMAIN-SUFFIX,ads-api.x.com
 DOMAIN-SUFFIX,ads-game-configuration-master.ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,ads-img.mozilla.org
 DOMAIN-SUFFIX,ads-pixiv.net
 DOMAIN-SUFFIX,ads-privacy-api.prd.mz.internal.unity3d.com
 DOMAIN-SUFFIX,ads-union.jd.com
 DOMAIN-SUFFIX,ads.bing.com
+DOMAIN-SUFFIX,ads.bloomberg.com
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.mozilla.org
 DOMAIN-SUFFIX,ads.sohu.com
@@ -127,6 +129,7 @@ DOMAIN-SUFFIX,analytics-alv.google.com
 DOMAIN-SUFFIX,analytics.adjust.io
 DOMAIN-SUFFIX,analytics.adjust.net.in
 DOMAIN-SUFFIX,analytics.adjust.world
+DOMAIN-SUFFIX,analytics.bloomberg.com
 DOMAIN-SUFFIX,analytics.cloud.unity3d.com
 DOMAIN-SUFFIX,analytics.pointdrive.linkedin.com
 DOMAIN-SUFFIX,analytics.tiktok.com
@@ -148,6 +151,7 @@ DOMAIN-SUFFIX,appmetrica.yandex.com
 DOMAIN-SUFFIX,appsflyer.com
 DOMAIN-SUFFIX,ar.umeng.com
 DOMAIN-SUFFIX,aspect-upush.umeng.com
+DOMAIN-SUFFIX,assetsconfigcdn.org
 DOMAIN-SUFFIX,assistads.net
 DOMAIN-SUFFIX,assp.sohu.com
 DOMAIN-SUFFIX,atanx.alicdn.com
@@ -233,12 +237,14 @@ DOMAIN-SUFFIX,eloqua-tracking.unity3d.com
 DOMAIN-SUFFIX,eloqua-trackings.unity3d.com
 DOMAIN-SUFFIX,ems.youku.com
 DOMAIN-SUFFIX,error-tracking.reddit.com
+DOMAIN-SUFFIX,eventrecorder.cm.bloomberg.com
 DOMAIN-SUFFIX,events.iap.unity3d.com
 DOMAIN-SUFFIX,events.mz.unity3d.com
 DOMAIN-SUFFIX,events.reddit.com
 DOMAIN-SUFFIX,events.watchtower.imdbtv.amazon.dev
 DOMAIN-SUFFIX,extlog.snssdk.com
 DOMAIN-SUFFIX,fcmatch.google.com
+DOMAIN-SUFFIX,featureassets.org
 DOMAIN-SUFFIX,federatedcompute-pa.googleapis.com
 DOMAIN-SUFFIX,firebaselogging.googleapis.com
 DOMAIN-SUFFIX,floors.dev
@@ -251,6 +257,7 @@ DOMAIN-SUFFIX,geo.mozilla.org
 DOMAIN-SUFFIX,gia.jd.com
 DOMAIN-SUFFIX,github.gpuzelenograd.cloudns.be
 DOMAIN-SUFFIX,gn01.top
+DOMAIN-SUFFIX,gnsnpaw.com
 DOMAIN-SUFFIX,google-analytics-cn.com
 DOMAIN-SUFFIX,google-analytics.com
 DOMAIN-SUFFIX,googleadapis.com
@@ -287,6 +294,7 @@ DOMAIN-SUFFIX,histats.com
 DOMAIN-SUFFIX,holmesmind.com
 DOMAIN-SUFFIX,hotjar.com
 DOMAIN-SUFFIX,hq-tracking.qq.com
+DOMAIN-SUFFIX,htlbid.com
 DOMAIN-SUFFIX,html-load.cc
 DOMAIN-SUFFIX,htrace.wetvinfo.com
 DOMAIN-SUFFIX,hwstats.unity3d.com
@@ -341,6 +349,7 @@ DOMAIN-SUFFIX,mediation-tracking.prd.mz.internal.unity3d.com
 DOMAIN-SUFFIX,mediation.unity3d.com
 DOMAIN-SUFFIX,metrics-config.icloud.com
 DOMAIN-SUFFIX,metrics.apple.com
+DOMAIN-SUFFIX,metrics.bloomberg.com
 DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN-SUFFIX,metrics.imdb.a2z.com
 DOMAIN-SUFFIX,miaozhen.com
@@ -366,6 +375,7 @@ DOMAIN-SUFFIX,news-app-events.apple.com
 DOMAIN-SUFFIX,news-events.apple.com
 DOMAIN-SUFFIX,news-sports-events.apple.com
 DOMAIN-SUFFIX,notes-analytics-events.apple.com
+DOMAIN-SUFFIX,notify.bugsnag.com
 DOMAIN-SUFFIX,oc.umeng.com
 DOMAIN-SUFFIX,odd-onead.cdn.hinet.net
 DOMAIN-SUFFIX,ogads-pa.googleapis.com
@@ -444,6 +454,7 @@ DOMAIN-SUFFIX,sdk-api-v1.singular.net
 DOMAIN-SUFFIX,securemetrics.apple.com
 DOMAIN-SUFFIX,securemetrics.apple.com.cn
 DOMAIN-SUFFIX,securemvt.apple.com
+DOMAIN-SUFFIX,sessions.bugsnag.com
 DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,shoppingads.cn
 DOMAIN-SUFFIX,site-config.com
@@ -460,6 +471,7 @@ DOMAIN-SUFFIX,statis.api.3g.youku.com
 DOMAIN-SUFFIX,statsfe2.ws.microsoft.com
 DOMAIN-SUFFIX,stocks-analytics-events.apple.com
 DOMAIN-SUFFIX,supportmetrics.apple.com
+DOMAIN-SUFFIX,t.e.x.com
 DOMAIN-SUFFIX,tagtoo.co
 DOMAIN-SUFFIX,tagtoo.com
 DOMAIN-SUFFIX,tajs.qq.com
@@ -477,6 +489,7 @@ DOMAIN-SUFFIX,tpstelemetry.tencent.com
 DOMAIN-SUFFIX,trace.qq.com
 DOMAIN-SUFFIX,track.lc.quark.cn
 DOMAIN-SUFFIX,track.sohu.com
+DOMAIN-SUFFIX,tracking.bloomberg.com
 DOMAIN-SUFFIX,tracking.prd.mz.internal.unity3d.com
 DOMAIN-SUFFIX,treasuredata.com
 DOMAIN-SUFFIX,tsyndicate.com

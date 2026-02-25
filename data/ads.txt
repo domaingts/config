@@ -549,3 +549,17 @@ live.primis.tech
 floors.dev
 demandingoverdriveunthread.com
 tyserving.com
+
+ads-api.x.com
+t.e.x.com
+notify.bugsnag.com
+sessions.bugsnag.com
+ads.bloomberg.com
+analytics.bloomberg.com
+eventrecorder.cm.bloomberg.com
+metrics.bloomberg.com
+tracking.bloomberg.com
+featureassets.org
+gnsnpaw.com
+assetsconfigcdn.org
+htlbid.com

@@ -70,12 +70,14 @@ domain_suffix_set:
   - adobecorp.data.adobedc.net
   - adping.qq.com
   - adpm.app.qq.com
+  - ads-api.x.com
   - ads-game-configuration-master.ads.prd.ie.internal.unity3d.com
   - ads-img.mozilla.org
   - ads-pixiv.net
   - ads-privacy-api.prd.mz.internal.unity3d.com
   - ads-union.jd.com
   - ads.bing.com
+  - ads.bloomberg.com
   - ads.linkedin.com
   - ads.mozilla.org
   - ads.sohu.com
@@ -130,6 +132,7 @@ domain_suffix_set:
   - analytics.adjust.io
   - analytics.adjust.net.in
   - analytics.adjust.world
+  - analytics.bloomberg.com
   - analytics.cloud.unity3d.com
   - analytics.pointdrive.linkedin.com
   - analytics.tiktok.com
@@ -151,6 +154,7 @@ domain_suffix_set:
   - appsflyer.com
   - ar.umeng.com
   - aspect-upush.umeng.com
+  - assetsconfigcdn.org
   - assistads.net
   - assp.sohu.com
   - atanx.alicdn.com
@@ -236,12 +240,14 @@ domain_suffix_set:
   - eloqua-trackings.unity3d.com
   - ems.youku.com
   - error-tracking.reddit.com
+  - eventrecorder.cm.bloomberg.com
   - events.iap.unity3d.com
   - events.mz.unity3d.com
   - events.reddit.com
   - events.watchtower.imdbtv.amazon.dev
   - extlog.snssdk.com
   - fcmatch.google.com
+  - featureassets.org
   - federatedcompute-pa.googleapis.com
   - firebaselogging.googleapis.com
   - floors.dev
@@ -254,6 +260,7 @@ domain_suffix_set:
   - gia.jd.com
   - github.gpuzelenograd.cloudns.be
   - gn01.top
+  - gnsnpaw.com
   - google-analytics-cn.com
   - google-analytics.com
   - googleadapis.com
@@ -290,6 +297,7 @@ domain_suffix_set:
   - holmesmind.com
   - hotjar.com
   - hq-tracking.qq.com
+  - htlbid.com
   - html-load.cc
   - htrace.wetvinfo.com
   - hwstats.unity3d.com
@@ -344,6 +352,7 @@ domain_suffix_set:
   - mediation.unity3d.com
   - metrics-config.icloud.com
   - metrics.apple.com
+  - metrics.bloomberg.com
   - metrics.icloud.com
   - metrics.imdb.a2z.com
   - miaozhen.com
@@ -369,6 +378,7 @@ domain_suffix_set:
   - news-events.apple.com
   - news-sports-events.apple.com
   - notes-analytics-events.apple.com
+  - notify.bugsnag.com
   - oc.umeng.com
   - odd-onead.cdn.hinet.net
   - ogads-pa.googleapis.com
@@ -447,6 +457,7 @@ domain_suffix_set:
   - securemetrics.apple.com
   - securemetrics.apple.com.cn
   - securemvt.apple.com
+  - sessions.bugsnag.com
   - sf3-ttcdn-tos.pstatp.com
   - shoppingads.cn
   - site-config.com
@@ -463,6 +474,7 @@ domain_suffix_set:
   - statsfe2.ws.microsoft.com
   - stocks-analytics-events.apple.com
   - supportmetrics.apple.com
+  - t.e.x.com
   - tagtoo.co
   - tagtoo.com
   - tajs.qq.com
@@ -480,6 +492,7 @@ domain_suffix_set:
   - trace.qq.com
   - track.lc.quark.cn
   - track.sohu.com
+  - tracking.bloomberg.com
   - tracking.prd.mz.internal.unity3d.com
   - treasuredata.com
   - tsyndicate.com
