@@ -209,6 +209,7 @@ domain_suffix_set:
   - chnsrv.com
   - clarity.ms
   - clck.yandex.com
+  - clicktale.net
   - clientlogger.marketplace.aws.a2z.com
   - clientmetrics-pa.googleapis.com
   - clouderrorreporting.googleapis.com
@@ -233,6 +234,7 @@ domain_suffix_set:
   - criteo.net
   - csp-reporting.cloudflare.com
   - ctobsnssdk.com
+  - d.impactradius-event.com
   - d.reddit.com
   - dable.io
   - dacdn.visualwebsiteoptimizer.com
@@ -370,6 +372,7 @@ domain_suffix_set:
   - logs.amap.com
   - logs.appsource.microsoft.com
   - logs.chelaile.net.cn
+  - lptag.liveperson.net
   - lstat.youku.com
   - lu.sogou.com
   - lu.sogoucdn.com
