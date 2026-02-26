@@ -22,6 +22,7 @@ domain_suffix_set:
   - 2mdn-cn.net
   - 2mdn.net
   - 3lift.com
+  - 4dex.io
   - a.alimama.cn
   - aaid.umeng.com
   - acjs.aliyun.com
@@ -75,6 +76,7 @@ domain_suffix_set:
   - ads-img.mozilla.org
   - ads-pixiv.net
   - ads-privacy-api.prd.mz.internal.unity3d.com
+  - ads-twitter.com
   - ads-union.jd.com
   - ads.bing.com
   - ads.bloomberg.com
@@ -126,6 +128,7 @@ domain_suffix_set:
   - alog.umengcloud.com
   - alogs.umeng.com
   - alogus.umeng.com
+  - amazon-adsystem.com
   - amc.yandex.ru
   - an.yandex.ru
   - analytics-alv.google.com
@@ -139,8 +142,16 @@ domain_suffix_set:
   - androidtvchannels-pa.googleapis.com
   - androidtvwatsonfe-pa.googleapis.com
   - api-adservices.apple.com
+  - api.amplitude.com
   - api.appmetrica.yandex.ru
+  - api.branch.io
+  - api.eu.amplitude.com
+  - api.lab.amplitude.com
+  - api.lab.eu.amplitude.com
   - api.uca.cloud.unity3d.com
+  - api2.amplitude.com
+  - api2.branch.io
+  - api3.branch.io
   - app-analytics-services-att.com
   - app-analytics-services.com
   - app-measurement-cn.com
@@ -171,6 +182,8 @@ domain_suffix_set:
   - bat.bing.com
   - bds.snssdk.com
   - bdu.focus.cn
+  - beacon-1.newrelic.com
+  - beacon-3.newrelic.com
   - beacon.cdn.qq.com
   - beacon.qq.com
   - beaconcdn.qq.com
@@ -187,7 +200,11 @@ domain_suffix_set:
   - c.live.com
   - c.microsoft.com
   - campfirecroutondecorator.com
+  - casalemedia.com
   - ccs.umeng.com
+  - cdn.amplitude.com
+  - cdn.branch.io
+  - cdn.polarbyte.com
   - cdp.cloud.unity3d.com
   - chnsrv.com
   - clarity.ms
@@ -211,12 +228,16 @@ domain_suffix_set:
   - crashlyticsreports-pa.googleapis.com
   - crazyegg.com
   - creative.myavlive.com
+  - creativecdn.com
+  - criteo.com
   - criteo.net
+  - csp-reporting.cloudflare.com
   - ctobsnssdk.com
   - d.reddit.com
   - dable.io
   - dacdn.visualwebsiteoptimizer.com
   - data-optout-service.uca.cloud.unity3d.com
+  - data.em2.cloudflare.com
   - demandingoverdriveunthread.com
   - demdex.net
   - dev.visualwebsiteoptimizer.com
@@ -231,6 +252,7 @@ domain_suffix_set:
   - download-stats.mozilla.org
   - dreamlikefostergala.com
   - drupalmetrics.ppg.apple.com
+  - dsp.branch.io
   - dualstack-logs.amap.com
   - dust-0001.delorazahnow.workers.dev
   - e.qq.com
@@ -240,6 +262,7 @@ domain_suffix_set:
   - eloqua-trackings.unity3d.com
   - ems.youku.com
   - error-tracking.reddit.com
+  - event-router.olympics.com
   - eventrecorder.cm.bloomberg.com
   - events.iap.unity3d.com
   - events.mz.unity3d.com
@@ -250,9 +273,12 @@ domain_suffix_set:
   - featureassets.org
   - federatedcompute-pa.googleapis.com
   - firebaselogging.googleapis.com
+  - flag.lab.amplitude.com
+  - flag.lab.eu.amplitude.com
   - floors.dev
   - fourier.taobao.com
   - fpb.sohu.com
+  - fwmrm.net
   - g.click.taobao.com
   - gcp.fasthorse.workers.dev
   - gdt.qq.com
@@ -261,6 +287,7 @@ domain_suffix_set:
   - github.gpuzelenograd.cloudns.be
   - gn01.top
   - gnsnpaw.com
+  - go-mpulse.net
   - google-analytics-cn.com
   - google-analytics.com
   - googleadapis.com
@@ -308,6 +335,8 @@ domain_suffix_set:
   - iadsdk.apple.com
   - iadsdk.apple.com
   - iadsdk.apple.com
+  - iaw-events.polarbyte.com
+  - im-apps.net
   - imasdk.googleapis.com
   - img-x.jd.com
   - imgsct.cookiebot.com
@@ -315,16 +344,23 @@ domain_suffix_set:
   - incoming.telemetry.mozilla.org
   - increaserev2.static-cloudflare.workers.dev
   - increaserev3.static-cloudflare.workers.dev
+  - indexww.com
   - informer.yandex.ru
+  - insights-collector.newrelic.com
   - inte.sogou.com
   - inte.sogoucdn.com
+  - ip-check-perf.radar.cloudflare.com
   - isdspeed.qq.com
   - jpush.cn
+  - js-agent.newrelic.com
   - jzt.jd.com
+  - kargo.com
   - kiks.yandex.ru
   - liadm.com
+  - lijit.com
   - live.primis.tech
   - lngtd.com
+  - log-api.newrelic.com
   - log.intellimize.co
   - log.shortbread.analytics.console.aws.a2z.com
   - log.strm.yandex.ru
@@ -350,6 +386,7 @@ domain_suffix_set:
   - mdt.qq.com
   - mediation-tracking.prd.mz.internal.unity3d.com
   - mediation.unity3d.com
+  - metric-api.newrelic.com
   - metrics-config.icloud.com
   - metrics.apple.com
   - metrics.bloomberg.com
@@ -359,6 +396,7 @@ domain_suffix_set:
   - mihoutao1868.github.io
   - minerva.devices.a2z.com
   - mixpanel.com
+  - mobile-collector.newrelic.com
   - mobileads.google.com
   - mobilefuse.com
   - mobilemsg.youku.com
@@ -366,6 +404,7 @@ domain_suffix_set:
   - monitor.uu.qq.com
   - mozillaname.com
   - mpush.qq.com
+  - mr.olympics.com
   - ms.yandex.ru
   - msadsscale.microsoft.com
   - msg.youku.com
@@ -383,6 +422,7 @@ domain_suffix_set:
   - odd-onead.cdn.hinet.net
   - ogads-pa.googleapis.com
   - omtrdc.net
+  - openx.net
   - optimus-ads.amap.com
   - osd-onead.cdn.hinet.net
   - osm-onead.cdn.hinet.net
@@ -422,8 +462,11 @@ domain_suffix_set:
   - prod.cm.publishers.advertising.a2z.com
   - prod.tahoe-analytics.publishers.advertising.a2z.com
   - prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
+  - profile-api.amplitude.com
+  - protected-api.branch.io
   - pub.network
   - publisher-event.ads.prd.ie.internal.unity3d.com
+  - pubmatic.com
   - push.qq.com
   - pv.hd.sohu.com
   - pv.sohu.com
@@ -439,6 +482,7 @@ domain_suffix_set:
   - rapid-glade-cde8.asoumare042024.workers.dev
   - rec5.visualwebsiteoptimizer.com
   - referrer.disqus.com
+  - regionconfig.amplitude.com
   - reke.at.sohu.com
   - removeads.workers.dev
   - report.qqweb.qq.com
@@ -450,6 +494,7 @@ domain_suffix_set:
   - rmonitor.qq.com
   - rtb-trk4.linkedin.com
   - rtb-us-east.linkedin.com
+  - rubiconproject.com
   - rum-collector.leaderint.workers.dev
   - s-adashx.ut.youku.com
   - scorecardresearch.com
@@ -463,9 +508,13 @@ domain_suffix_set:
   - site-config.com
   - siteintercept.qualtrics.com
   - skadnetwork.singular.net
+  - smartadserver.com
   - smetric.ads.microsoft.com
   - snaptrckr.fun
   - sngmta.qq.com
+  - sp-eu.dev.polarbyte.com
+  - sr-client-cfg.amplitude.com
+  - sr-client-cfg.eu.amplitude.com
   - ssp.hinet.net
   - stat.m.jd.com
   - stat.y.qq.com
@@ -481,14 +530,18 @@ domain_suffix_set:
   - target.microsoft.com
   - tce.alicdn.com
   - tcss.qq.com
+  - teads.tv
+  - telemetry.individual.githubcopilot.com
   - telemetry.insights.video.a2z.com
   - telemetry.proton.me
   - theta.sogoucdn.com
   - thind-gke-euw.prd.data.corp.unity3d.com
+  - tiqcdn.com
   - tmead.y.qq.com
   - tmeadcomm.y.qq.com
   - tns.simba.taobao.com
   - tpstelemetry.tencent.com
+  - tr.www.cloudflare.com
   - trace.qq.com
   - track.lc.quark.cn
   - track.sohu.com
