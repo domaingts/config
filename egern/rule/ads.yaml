@@ -33,6 +33,7 @@ domain_suffix_set:
   - ad.api.3g.youku.com
   - ad.api.mobile.youku.com
   - ad.browser.qq.com
+  - ad.ettoday.net
   - ad.mobile.youku.com
   - ad.qq.com
   - ad.qun.qq.com
@@ -114,6 +115,7 @@ domain_suffix_set:
   - adv-sv-show.focus.cn
   - adv-sv-stat.focus.cn
   - adv.app.qq.com
+  - adv.ettoday.net
   - adver.qq.com
   - advertisercommunity.com
   - advertiserscommunity.com
@@ -130,6 +132,8 @@ domain_suffix_set:
   - alogus.umeng.com
   - amazon-adsystem.com
   - amc.yandex.ru
+  - amung.us
+  - an.webvisor.org
   - an.yandex.ru
   - analytics-alv.google.com
   - analytics.adjust.io
@@ -172,6 +176,7 @@ domain_suffix_set:
   - atanx2.alicdn.com
   - atm.youku.com
   - atrace.chelaile.net.cn
+  - au.adhacker.online
   - aucdn.net
   - audid.umeng.com
   - awaps.yandex.ru
@@ -207,6 +212,7 @@ domain_suffix_set:
   - cdn.polarbyte.com
   - cdp.cloud.unity3d.com
   - chnsrv.com
+  - clammyendearedkeg.com
   - clarity.ms
   - clck.yandex.com
   - clicktale.net
@@ -247,6 +253,7 @@ domain_suffix_set:
   - diffusedpassionquaking.com
   - diffusedpassionquaking.com
   - dig.bdurl.net
+  - dmxleo.dailymotion.com
   - doubleclick-cn.net
   - doubleclick.cn
   - doubleclick.com
@@ -264,13 +271,16 @@ domain_suffix_set:
   - eloqua-trackings.unity3d.com
   - ems.youku.com
   - error-tracking.reddit.com
+  - eunow4u.com
   - event-router.olympics.com
   - eventrecorder.cm.bloomberg.com
   - events.iap.unity3d.com
   - events.mz.unity3d.com
   - events.reddit.com
   - events.watchtower.imdbtv.amazon.dev
+  - exosrv.com
   - extlog.snssdk.com
+  - eyebrowscrambledlater.com
   - fcmatch.google.com
   - featureassets.org
   - federatedcompute-pa.googleapis.com
@@ -280,6 +290,7 @@ domain_suffix_set:
   - floors.dev
   - fourier.taobao.com
   - fpb.sohu.com
+  - fractionfridgejudiciary.com
   - fwmrm.net
   - g.click.taobao.com
   - gcp.fasthorse.workers.dev
@@ -343,6 +354,7 @@ domain_suffix_set:
   - img-x.jd.com
   - imgsct.cookiebot.com
   - imp.go.sohu.com
+  - imp.pixiv.net
   - incoming.telemetry.mozilla.org
   - increaserev2.static-cloudflare.workers.dev
   - increaserev3.static-cloudflare.workers.dev
@@ -355,9 +367,11 @@ domain_suffix_set:
   - isdspeed.qq.com
   - jpush.cn
   - js-agent.newrelic.com
+  - jwpltx.com
   - jzt.jd.com
   - kargo.com
   - kiks.yandex.ru
+  - lc-event.pixiv.net
   - liadm.com
   - lijit.com
   - live.primis.tech
@@ -369,6 +383,8 @@ domain_suffix_set:
   - log.tbs.qq.com
   - log.umtrack.com
   - log.zijieapi.com
+  - logger.dailymotion.com
+  - logly.co.jp
   - logs.amap.com
   - logs.appsource.microsoft.com
   - logs.chelaile.net.cn
@@ -383,16 +399,19 @@ domain_suffix_set:
   - market-click-baobab.yandex.ru
   - marketing.alibaba.com
   - marketingplatform.google.com
+  - mc.webvisor.org
   - mc.yandex.com
   - mc.yandex.ru
   - mcs.snssdk.com
   - mdt.qq.com
+  - mebed.dm-event.net
   - mediation-tracking.prd.mz.internal.unity3d.com
   - mediation.unity3d.com
   - metric-api.newrelic.com
   - metrics-config.icloud.com
   - metrics.apple.com
   - metrics.bloomberg.com
+  - metrics.dailymotion.com
   - metrics.icloud.com
   - metrics.imdb.a2z.com
   - miaozhen.com
@@ -410,6 +429,7 @@ domain_suffix_set:
   - mr.olympics.com
   - ms.yandex.ru
   - msadsscale.microsoft.com
+  - msg.ettoday.net
   - msg.youku.com
   - mtrace.qq.com
   - nbsdk-baichuan.alicdn.com
@@ -421,6 +441,7 @@ domain_suffix_set:
   - news-sports-events.apple.com
   - notes-analytics-events.apple.com
   - notify.bugsnag.com
+  - nxnszu.ettoday.net
   - oc.umeng.com
   - odd-onead.cdn.hinet.net
   - ogads-pa.googleapis.com
@@ -448,6 +469,7 @@ domain_suffix_set:
   - partnerad.l.google.com
   - passport-log.youku.com
   - pb.i.sogou.com
+  - pebed.dm-event.net
   - perf-events.cloud.unity3d.com
   - pgdt.gtimg.cn
   - pglstatp-sdk-toutiao.com
@@ -462,6 +484,7 @@ domain_suffix_set:
   - plbslog.umeng.com
   - pls.prd.mz.internal.unity3d.com
   - pmir.3g.qq.com
+  - power.adhacker.online
   - prod.cm.publishers.advertising.a2z.com
   - prod.tahoe-analytics.publishers.advertising.a2z.com
   - prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
@@ -483,6 +506,7 @@ domain_suffix_set:
   - rad.live.com
   - rad.msn.com
   - rapid-glade-cde8.asoumare042024.workers.dev
+  - realsrv.com
   - rec5.visualwebsiteoptimizer.com
   - referrer.disqus.com
   - regionconfig.amplitude.com
@@ -527,6 +551,7 @@ domain_suffix_set:
   - stocks-analytics-events.apple.com
   - supportmetrics.apple.com
   - t.e.x.com
+  - taboola.com
   - tagtoo.co
   - tagtoo.com
   - tajs.qq.com
@@ -577,8 +602,10 @@ domain_suffix_set:
   - weather-analytics-events.apple.com
   - web-sdk-cdn.singular.net
   - web-vitals-script.leaderint.workers.dev
+  - webed.dm-event.net
   - wes.df.telemetry.microsoft.com
   - wit.qq.com
+  - wpadmngr.com
   - wuliao.epro.sogou.com
   - www.visualwebsiteoptimizer.com
   - xy.fbcdn.net
