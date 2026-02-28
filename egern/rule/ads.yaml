@@ -123,6 +123,7 @@ domain_suffix_set:
   - adwords-community.com
   - adwords.com
   - adwordsexpress.com
+  - adxadserv.com
   - agent.tamedia.com.tw
   - alb.reddit.com
   - alimama.alicdn.com
@@ -235,6 +236,7 @@ domain_suffix_set:
   - crashlyticsreports-pa.googleapis.com
   - crazyegg.com
   - creative.myavlive.com
+  - creative.tklivechat.com
   - creativecdn.com
   - criteo.com
   - criteo.net
@@ -246,6 +248,8 @@ domain_suffix_set:
   - dacdn.visualwebsiteoptimizer.com
   - data-optout-service.uca.cloud.unity3d.com
   - data.em2.cloudflare.com
+  - dcf.espn.com
+  - dcfdata.espn.com
   - demandingoverdriveunthread.com
   - demdex.net
   - dev.visualwebsiteoptimizer.com
@@ -377,6 +381,7 @@ domain_suffix_set:
   - live.primis.tech
   - lngtd.com
   - log-api.newrelic.com
+  - log.espn.com
   - log.intellimize.co
   - log.shortbread.analytics.console.aws.a2z.com
   - log.strm.yandex.ru
@@ -418,6 +423,7 @@ domain_suffix_set:
   - mihoutao1868.github.io
   - minerva.devices.a2z.com
   - mixpanel.com
+  - mnaspm.com
   - mobile-collector.newrelic.com
   - mobileads.google.com
   - mobilefuse.com
@@ -470,6 +476,7 @@ domain_suffix_set:
   - passport-log.youku.com
   - pb.i.sogou.com
   - pebed.dm-event.net
+  - pemsrv.com
   - perf-events.cloud.unity3d.com
   - pgdt.gtimg.cn
   - pglstatp-sdk-toutiao.com
@@ -518,12 +525,14 @@ domain_suffix_set:
   - resolve.umeng.com
   - retcode.taobao.com
   - rlcdn.com
+  - rmhfrtnd.com
   - rmonitor.qq.com
   - rtb-trk4.linkedin.com
   - rtb-us-east.linkedin.com
   - rubiconproject.com
   - rum-collector.leaderint.workers.dev
   - s-adashx.ut.youku.com
+  - saawsedge.com
   - scorecardresearch.com
   - sdk-api-v1.singular.net
   - securemetrics.apple.com
@@ -550,11 +559,13 @@ domain_suffix_set:
   - statsfe2.ws.microsoft.com
   - stocks-analytics-events.apple.com
   - supportmetrics.apple.com
+  - sw88.espn.com
   - t.e.x.com
   - taboola.com
   - tagtoo.co
   - tagtoo.com
   - tajs.qq.com
+  - tapioni.com
   - target.microsoft.com
   - tce.alicdn.com
   - tcss.qq.com
@@ -599,6 +610,7 @@ domain_suffix_set:
   - w.cnzz.com
   - w3-reporting-nel.reddit.com
   - w3-reporting.reddit.com
+  - w88.espn.com
   - weather-analytics-events.apple.com
   - web-sdk-cdn.singular.net
   - web-vitals-script.leaderint.workers.dev

@@ -649,3 +649,16 @@ power.adhacker.online
 exosrv.com
 clammyendearedkeg.com
 taboola.com
+
+dcf.espn.com
+dcfdata.espn.com
+log.espn.com
+sw88.espn.com
+w88.espn.com
+mnaspm.com
+adxadserv.com
+creative.tklivechat.com
+rmhfrtnd.com
+tapioni.com
+saawsedge.com
+pemsrv.com

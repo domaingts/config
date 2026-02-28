@@ -120,6 +120,7 @@ DOMAIN-SUFFIX,advertising.apple.com
 DOMAIN-SUFFIX,adwords-community.com
 DOMAIN-SUFFIX,adwords.com
 DOMAIN-SUFFIX,adwordsexpress.com
+DOMAIN-SUFFIX,adxadserv.com
 DOMAIN-SUFFIX,agent.tamedia.com.tw
 DOMAIN-SUFFIX,alb.reddit.com
 DOMAIN-SUFFIX,alimama.alicdn.com
@@ -232,6 +233,7 @@ DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,crazyegg.com
 DOMAIN-SUFFIX,creative.myavlive.com
+DOMAIN-SUFFIX,creative.tklivechat.com
 DOMAIN-SUFFIX,creativecdn.com
 DOMAIN-SUFFIX,criteo.com
 DOMAIN-SUFFIX,criteo.net
@@ -243,6 +245,8 @@ DOMAIN-SUFFIX,dable.io
 DOMAIN-SUFFIX,dacdn.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,data-optout-service.uca.cloud.unity3d.com
 DOMAIN-SUFFIX,data.em2.cloudflare.com
+DOMAIN-SUFFIX,dcf.espn.com
+DOMAIN-SUFFIX,dcfdata.espn.com
 DOMAIN-SUFFIX,demandingoverdriveunthread.com
 DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,dev.visualwebsiteoptimizer.com
@@ -374,6 +378,7 @@ DOMAIN-SUFFIX,lijit.com
 DOMAIN-SUFFIX,live.primis.tech
 DOMAIN-SUFFIX,lngtd.com
 DOMAIN-SUFFIX,log-api.newrelic.com
+DOMAIN-SUFFIX,log.espn.com
 DOMAIN-SUFFIX,log.intellimize.co
 DOMAIN-SUFFIX,log.shortbread.analytics.console.aws.a2z.com
 DOMAIN-SUFFIX,log.strm.yandex.ru
@@ -415,6 +420,7 @@ DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,mihoutao1868.github.io
 DOMAIN-SUFFIX,minerva.devices.a2z.com
 DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,mnaspm.com
 DOMAIN-SUFFIX,mobile-collector.newrelic.com
 DOMAIN-SUFFIX,mobileads.google.com
 DOMAIN-SUFFIX,mobilefuse.com
@@ -467,6 +473,7 @@ DOMAIN-SUFFIX,partnerad.l.google.com
 DOMAIN-SUFFIX,passport-log.youku.com
 DOMAIN-SUFFIX,pb.i.sogou.com
 DOMAIN-SUFFIX,pebed.dm-event.net
+DOMAIN-SUFFIX,pemsrv.com
 DOMAIN-SUFFIX,perf-events.cloud.unity3d.com
 DOMAIN-SUFFIX,pgdt.gtimg.cn
 DOMAIN-SUFFIX,pglstatp-sdk-toutiao.com
@@ -515,12 +522,14 @@ DOMAIN-SUFFIX,reproio.com
 DOMAIN-SUFFIX,resolve.umeng.com
 DOMAIN-SUFFIX,retcode.taobao.com
 DOMAIN-SUFFIX,rlcdn.com
+DOMAIN-SUFFIX,rmhfrtnd.com
 DOMAIN-SUFFIX,rmonitor.qq.com
 DOMAIN-SUFFIX,rtb-trk4.linkedin.com
 DOMAIN-SUFFIX,rtb-us-east.linkedin.com
 DOMAIN-SUFFIX,rubiconproject.com
 DOMAIN-SUFFIX,rum-collector.leaderint.workers.dev
 DOMAIN-SUFFIX,s-adashx.ut.youku.com
+DOMAIN-SUFFIX,saawsedge.com
 DOMAIN-SUFFIX,scorecardresearch.com
 DOMAIN-SUFFIX,sdk-api-v1.singular.net
 DOMAIN-SUFFIX,securemetrics.apple.com
@@ -547,11 +556,13 @@ DOMAIN-SUFFIX,statis.api.3g.youku.com
 DOMAIN-SUFFIX,statsfe2.ws.microsoft.com
 DOMAIN-SUFFIX,stocks-analytics-events.apple.com
 DOMAIN-SUFFIX,supportmetrics.apple.com
+DOMAIN-SUFFIX,sw88.espn.com
 DOMAIN-SUFFIX,t.e.x.com
 DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,tagtoo.co
 DOMAIN-SUFFIX,tagtoo.com
 DOMAIN-SUFFIX,tajs.qq.com
+DOMAIN-SUFFIX,tapioni.com
 DOMAIN-SUFFIX,target.microsoft.com
 DOMAIN-SUFFIX,tce.alicdn.com
 DOMAIN-SUFFIX,tcss.qq.com
@@ -596,6 +607,7 @@ DOMAIN-SUFFIX,vortex.data.microsoft.com
 DOMAIN-SUFFIX,w.cnzz.com
 DOMAIN-SUFFIX,w3-reporting-nel.reddit.com
 DOMAIN-SUFFIX,w3-reporting.reddit.com
+DOMAIN-SUFFIX,w88.espn.com
 DOMAIN-SUFFIX,weather-analytics-events.apple.com
 DOMAIN-SUFFIX,web-sdk-cdn.singular.net
 DOMAIN-SUFFIX,web-vitals-script.leaderint.workers.dev
