@@ -23,6 +23,7 @@ domain_suffix_set:
   - 2mdn.net
   - 3lift.com
   - 4dex.io
+  - a-reporting.nytimes.com
   - a.alimama.cn
   - aaid.umeng.com
   - acjs.aliyun.com
@@ -83,11 +84,13 @@ domain_suffix_set:
   - ads.bloomberg.com
   - ads.linkedin.com
   - ads.mozilla.org
+  - ads.nytimes.com
   - ads.sohu.com
   - ads.uc.cn
   - ads.union.jd.com
   - ads.youtube.com
   - adsclick.qq.com
+  - adsco.re
   - adsdk.microsoft.com
   - adsdk.yandex.ru
   - adsense.com
@@ -131,6 +134,7 @@ domain_suffix_set:
   - alog.umengcloud.com
   - alogs.umeng.com
   - alogus.umeng.com
+  - als-svc.nytimes.com
   - amazon-adsystem.com
   - amc.yandex.ru
   - amung.us
@@ -275,6 +279,7 @@ domain_suffix_set:
   - eloqua-trackings.unity3d.com
   - ems.youku.com
   - error-tracking.reddit.com
+  - et.nytimes.com
   - eunow4u.com
   - event-router.olympics.com
   - eventrecorder.cm.bloomberg.com
@@ -300,6 +305,7 @@ domain_suffix_set:
   - gcp.fasthorse.workers.dev
   - gdt.qq.com
   - geo.mozilla.org
+  - geoedge.be
   - gia.jd.com
   - github.gpuzelenograd.cloudns.be
   - gn01.top
@@ -410,8 +416,10 @@ domain_suffix_set:
   - mcs.snssdk.com
   - mdt.qq.com
   - mebed.dm-event.net
+  - media.net
   - mediation-tracking.prd.mz.internal.unity3d.com
   - mediation.unity3d.com
+  - meter-svc.nytimes.com
   - metric-api.newrelic.com
   - metrics-config.icloud.com
   - metrics.apple.com
@@ -448,6 +456,7 @@ domain_suffix_set:
   - notes-analytics-events.apple.com
   - notify.bugsnag.com
   - nxnszu.ettoday.net
+  - nytadvertising.nytimes.com
   - oc.umeng.com
   - odd-onead.cdn.hinet.net
   - ogads-pa.googleapis.com
@@ -541,6 +550,7 @@ domain_suffix_set:
   - sessions.bugsnag.com
   - sf3-ttcdn-tos.pstatp.com
   - shoppingads.cn
+  - shukriya90.com
   - site-config.com
   - siteintercept.qualtrics.com
   - skadnetwork.singular.net
@@ -619,6 +629,7 @@ domain_suffix_set:
   - wit.qq.com
   - wpadmngr.com
   - wuliao.epro.sogou.com
+  - www.datadoghq-browser-agent.com
   - www.visualwebsiteoptimizer.com
   - xy.fbcdn.net
   - xz.fbcdn.net

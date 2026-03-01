@@ -662,3 +662,15 @@ rmhfrtnd.com
 tapioni.com
 saawsedge.com
 pemsrv.com
+
+a-reporting.nytimes.com
+ads.nytimes.com
+als-svc.nytimes.com
+et.nytimes.com
+meter-svc.nytimes.com
+nytadvertising.nytimes.com
+www.datadoghq-browser-agent.com
+geoedge.be
+media.net
+adsco.re
+shukriya90.com

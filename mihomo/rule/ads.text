@@ -20,6 +20,7 @@ DOMAIN-SUFFIX,2mdn-cn.net
 DOMAIN-SUFFIX,2mdn.net
 DOMAIN-SUFFIX,3lift.com
 DOMAIN-SUFFIX,4dex.io
+DOMAIN-SUFFIX,a-reporting.nytimes.com
 DOMAIN-SUFFIX,a.alimama.cn
 DOMAIN-SUFFIX,aaid.umeng.com
 DOMAIN-SUFFIX,acjs.aliyun.com
@@ -80,11 +81,13 @@ DOMAIN-SUFFIX,ads.bing.com
 DOMAIN-SUFFIX,ads.bloomberg.com
 DOMAIN-SUFFIX,ads.linkedin.com
 DOMAIN-SUFFIX,ads.mozilla.org
+DOMAIN-SUFFIX,ads.nytimes.com
 DOMAIN-SUFFIX,ads.sohu.com
 DOMAIN-SUFFIX,ads.uc.cn
 DOMAIN-SUFFIX,ads.union.jd.com
 DOMAIN-SUFFIX,ads.youtube.com
 DOMAIN-SUFFIX,adsclick.qq.com
+DOMAIN-SUFFIX,adsco.re
 DOMAIN-SUFFIX,adsdk.microsoft.com
 DOMAIN-SUFFIX,adsdk.yandex.ru
 DOMAIN-SUFFIX,adsense.com
@@ -128,6 +131,7 @@ DOMAIN-SUFFIX,alog.umeng.com
 DOMAIN-SUFFIX,alog.umengcloud.com
 DOMAIN-SUFFIX,alogs.umeng.com
 DOMAIN-SUFFIX,alogus.umeng.com
+DOMAIN-SUFFIX,als-svc.nytimes.com
 DOMAIN-SUFFIX,amazon-adsystem.com
 DOMAIN-SUFFIX,amc.yandex.ru
 DOMAIN-SUFFIX,amung.us
@@ -272,6 +276,7 @@ DOMAIN-SUFFIX,eloqua-tracking.unity3d.com
 DOMAIN-SUFFIX,eloqua-trackings.unity3d.com
 DOMAIN-SUFFIX,ems.youku.com
 DOMAIN-SUFFIX,error-tracking.reddit.com
+DOMAIN-SUFFIX,et.nytimes.com
 DOMAIN-SUFFIX,eunow4u.com
 DOMAIN-SUFFIX,event-router.olympics.com
 DOMAIN-SUFFIX,eventrecorder.cm.bloomberg.com
@@ -297,6 +302,7 @@ DOMAIN-SUFFIX,g.click.taobao.com
 DOMAIN-SUFFIX,gcp.fasthorse.workers.dev
 DOMAIN-SUFFIX,gdt.qq.com
 DOMAIN-SUFFIX,geo.mozilla.org
+DOMAIN-SUFFIX,geoedge.be
 DOMAIN-SUFFIX,gia.jd.com
 DOMAIN-SUFFIX,github.gpuzelenograd.cloudns.be
 DOMAIN-SUFFIX,gn01.top
@@ -407,8 +413,10 @@ DOMAIN-SUFFIX,mc.yandex.ru
 DOMAIN-SUFFIX,mcs.snssdk.com
 DOMAIN-SUFFIX,mdt.qq.com
 DOMAIN-SUFFIX,mebed.dm-event.net
+DOMAIN-SUFFIX,media.net
 DOMAIN-SUFFIX,mediation-tracking.prd.mz.internal.unity3d.com
 DOMAIN-SUFFIX,mediation.unity3d.com
+DOMAIN-SUFFIX,meter-svc.nytimes.com
 DOMAIN-SUFFIX,metric-api.newrelic.com
 DOMAIN-SUFFIX,metrics-config.icloud.com
 DOMAIN-SUFFIX,metrics.apple.com
@@ -445,6 +453,7 @@ DOMAIN-SUFFIX,news-sports-events.apple.com
 DOMAIN-SUFFIX,notes-analytics-events.apple.com
 DOMAIN-SUFFIX,notify.bugsnag.com
 DOMAIN-SUFFIX,nxnszu.ettoday.net
+DOMAIN-SUFFIX,nytadvertising.nytimes.com
 DOMAIN-SUFFIX,oc.umeng.com
 DOMAIN-SUFFIX,odd-onead.cdn.hinet.net
 DOMAIN-SUFFIX,ogads-pa.googleapis.com
@@ -538,6 +547,7 @@ DOMAIN-SUFFIX,securemvt.apple.com
 DOMAIN-SUFFIX,sessions.bugsnag.com
 DOMAIN-SUFFIX,sf3-ttcdn-tos.pstatp.com
 DOMAIN-SUFFIX,shoppingads.cn
+DOMAIN-SUFFIX,shukriya90.com
 DOMAIN-SUFFIX,site-config.com
 DOMAIN-SUFFIX,siteintercept.qualtrics.com
 DOMAIN-SUFFIX,skadnetwork.singular.net
@@ -616,6 +626,7 @@ DOMAIN-SUFFIX,wes.df.telemetry.microsoft.com
 DOMAIN-SUFFIX,wit.qq.com
 DOMAIN-SUFFIX,wpadmngr.com
 DOMAIN-SUFFIX,wuliao.epro.sogou.com
+DOMAIN-SUFFIX,www.datadoghq-browser-agent.com
 DOMAIN-SUFFIX,www.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
