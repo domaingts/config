@@ -251,6 +251,7 @@ DOMAIN-SUFFIX,data-optout-service.uca.cloud.unity3d.com
 DOMAIN-SUFFIX,data.em2.cloudflare.com
 DOMAIN-SUFFIX,dcf.espn.com
 DOMAIN-SUFFIX,dcfdata.espn.com
+DOMAIN-SUFFIX,demandbase.com
 DOMAIN-SUFFIX,demandingoverdriveunthread.com
 DOMAIN-SUFFIX,demdex.net
 DOMAIN-SUFFIX,dev.visualwebsiteoptimizer.com
@@ -407,6 +408,7 @@ DOMAIN-SUFFIX,mail-ads.google.com
 DOMAIN-SUFFIX,market-click-baobab.yandex.ru
 DOMAIN-SUFFIX,marketing.alibaba.com
 DOMAIN-SUFFIX,marketingplatform.google.com
+DOMAIN-SUFFIX,marketo.net
 DOMAIN-SUFFIX,mc.webvisor.org
 DOMAIN-SUFFIX,mc.yandex.com
 DOMAIN-SUFFIX,mc.yandex.ru
@@ -537,6 +539,7 @@ DOMAIN-SUFFIX,rtb-trk4.linkedin.com
 DOMAIN-SUFFIX,rtb-us-east.linkedin.com
 DOMAIN-SUFFIX,rubiconproject.com
 DOMAIN-SUFFIX,rum-collector.leaderint.workers.dev
+DOMAIN-SUFFIX,rum.hlx.page
 DOMAIN-SUFFIX,s-adashx.ut.youku.com
 DOMAIN-SUFFIX,saawsedge.com
 DOMAIN-SUFFIX,scorecardresearch.com

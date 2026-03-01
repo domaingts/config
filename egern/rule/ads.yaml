@@ -254,6 +254,7 @@ domain_suffix_set:
   - data.em2.cloudflare.com
   - dcf.espn.com
   - dcfdata.espn.com
+  - demandbase.com
   - demandingoverdriveunthread.com
   - demdex.net
   - dev.visualwebsiteoptimizer.com
@@ -410,6 +411,7 @@ domain_suffix_set:
   - market-click-baobab.yandex.ru
   - marketing.alibaba.com
   - marketingplatform.google.com
+  - marketo.net
   - mc.webvisor.org
   - mc.yandex.com
   - mc.yandex.ru
@@ -540,6 +542,7 @@ domain_suffix_set:
   - rtb-us-east.linkedin.com
   - rubiconproject.com
   - rum-collector.leaderint.workers.dev
+  - rum.hlx.page
   - s-adashx.ut.youku.com
   - saawsedge.com
   - scorecardresearch.com
