@@ -18,6 +18,7 @@ DOMAIN,rtlog5-applog-hl.fqnovel.com
 DOMAIN,rtlog5-applog.fqnovel.com
 DOMAIN-SUFFIX,2mdn-cn.net
 DOMAIN-SUFFIX,2mdn.net
+DOMAIN-SUFFIX,3gl.net
 DOMAIN-SUFFIX,3lift.com
 DOMAIN-SUFFIX,4dex.io
 DOMAIN-SUFFIX,a-reporting.nytimes.com
@@ -125,6 +126,7 @@ DOMAIN-SUFFIX,adwords.com
 DOMAIN-SUFFIX,adwordsexpress.com
 DOMAIN-SUFFIX,adxadserv.com
 DOMAIN-SUFFIX,agent.tamedia.com.tw
+DOMAIN-SUFFIX,aisiteanalytics.com
 DOMAIN-SUFFIX,alb.reddit.com
 DOMAIN-SUFFIX,alimama.alicdn.com
 DOMAIN-SUFFIX,alog.umeng.com
@@ -196,6 +198,7 @@ DOMAIN-SUFFIX,beacon.qq.com
 DOMAIN-SUFFIX,beaconcdn.qq.com
 DOMAIN-SUFFIX,bongacams11.com
 DOMAIN-SUFFIX,books-analytics-events.apple.com
+DOMAIN-SUFFIX,brandmetrics.com
 DOMAIN-SUFFIX,browser.pipe.aria.microsoft.com
 DOMAIN-SUFFIX,bs.yandex.ru
 DOMAIN-SUFFIX,btloader.com
@@ -248,7 +251,12 @@ DOMAIN-SUFFIX,d.reddit.com
 DOMAIN-SUFFIX,dable.io
 DOMAIN-SUFFIX,dacdn.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,data-optout-service.uca.cloud.unity3d.com
+DOMAIN-SUFFIX,data.account.paypal.com
 DOMAIN-SUFFIX,data.em2.cloudflare.com
+DOMAIN-SUFFIX,data.fastlane-email.paypal.com
+DOMAIN-SUFFIX,data.messaging.paypal.com
+DOMAIN-SUFFIX,data.news.paypal.com
+DOMAIN-SUFFIX,data.newsletter.paypal.com
 DOMAIN-SUFFIX,dcf.espn.com
 DOMAIN-SUFFIX,dcfdata.espn.com
 DOMAIN-SUFFIX,demandbase.com
@@ -279,6 +287,7 @@ DOMAIN-SUFFIX,ems.youku.com
 DOMAIN-SUFFIX,error-tracking.reddit.com
 DOMAIN-SUFFIX,et.nytimes.com
 DOMAIN-SUFFIX,eunow4u.com
+DOMAIN-SUFFIX,eutzh.bokksu.com
 DOMAIN-SUFFIX,event-router.olympics.com
 DOMAIN-SUFFIX,eventrecorder.cm.bloomberg.com
 DOMAIN-SUFFIX,events.iap.unity3d.com
@@ -349,6 +358,7 @@ DOMAIN-SUFFIX,htlbid.com
 DOMAIN-SUFFIX,html-load.cc
 DOMAIN-SUFFIX,htrace.wetvinfo.com
 DOMAIN-SUFFIX,hwstats.unity3d.com
+DOMAIN-SUFFIX,i.paypal.com
 DOMAIN-SUFFIX,i.singular.net
 DOMAIN-SUFFIX,i.snssdk.com
 DOMAIN-SUFFIX,iad.apple.com
@@ -384,6 +394,7 @@ DOMAIN-SUFFIX,liadm.com
 DOMAIN-SUFFIX,lijit.com
 DOMAIN-SUFFIX,live.primis.tech
 DOMAIN-SUFFIX,lngtd.com
+DOMAIN-SUFFIX,load.stape.bokksu.com
 DOMAIN-SUFFIX,log-api.newrelic.com
 DOMAIN-SUFFIX,log.espn.com
 DOMAIN-SUFFIX,log.intellimize.co
@@ -426,10 +437,12 @@ DOMAIN-SUFFIX,metrics.bloomberg.com
 DOMAIN-SUFFIX,metrics.dailymotion.com
 DOMAIN-SUFFIX,metrics.icloud.com
 DOMAIN-SUFFIX,metrics.imdb.a2z.com
+DOMAIN-SUFFIX,metrics.washingtonpost.com
 DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,mihoutao1868.github.io
 DOMAIN-SUFFIX,minerva.devices.a2z.com
 DOMAIN-SUFFIX,mixpanel.com
+DOMAIN-SUFFIX,ml314.com
 DOMAIN-SUFFIX,mnaspm.com
 DOMAIN-SUFFIX,mobile-collector.newrelic.com
 DOMAIN-SUFFIX,mobileads.google.com
@@ -455,6 +468,7 @@ DOMAIN-SUFFIX,news-sports-events.apple.com
 DOMAIN-SUFFIX,notes-analytics-events.apple.com
 DOMAIN-SUFFIX,notify.bugsnag.com
 DOMAIN-SUFFIX,nxnszu.ettoday.net
+DOMAIN-SUFFIX,ny77jj.washingtonpost.com
 DOMAIN-SUFFIX,nytadvertising.nytimes.com
 DOMAIN-SUFFIX,oc.umeng.com
 DOMAIN-SUFFIX,odd-onead.cdn.hinet.net
@@ -464,6 +478,7 @@ DOMAIN-SUFFIX,openx.net
 DOMAIN-SUFFIX,optimus-ads.amap.com
 DOMAIN-SUFFIX,osd-onead.cdn.hinet.net
 DOMAIN-SUFFIX,osm-onead.cdn.hinet.net
+DOMAIN-SUFFIX,outbrain.com
 DOMAIN-SUFFIX,outlookads.live.com
 DOMAIN-SUFFIX,p-log.ykimg.com
 DOMAIN-SUFFIX,p.aty.sohu.com
@@ -486,6 +501,7 @@ DOMAIN-SUFFIX,pb.i.sogou.com
 DOMAIN-SUFFIX,pebed.dm-event.net
 DOMAIN-SUFFIX,pemsrv.com
 DOMAIN-SUFFIX,perf-events.cloud.unity3d.com
+DOMAIN-SUFFIX,permutive.app
 DOMAIN-SUFFIX,pgdt.gtimg.cn
 DOMAIN-SUFFIX,pglstatp-sdk-toutiao.com
 DOMAIN-SUFFIX,pglstatp-snssdk-toutiao.com
@@ -506,6 +522,8 @@ DOMAIN-SUFFIX,prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
 DOMAIN-SUFFIX,profile-api.amplitude.com
 DOMAIN-SUFFIX,protected-api.branch.io
 DOMAIN-SUFFIX,pub.network
+DOMAIN-SUFFIX,pubadx.one
+DOMAIN-SUFFIX,pubfuture-ad.com
 DOMAIN-SUFFIX,publisher-event.ads.prd.ie.internal.unity3d.com
 DOMAIN-SUFFIX,pubmatic.com
 DOMAIN-SUFFIX,push.qq.com
@@ -556,6 +574,7 @@ DOMAIN-SUFFIX,siteintercept.qualtrics.com
 DOMAIN-SUFFIX,skadnetwork.singular.net
 DOMAIN-SUFFIX,smartadserver.com
 DOMAIN-SUFFIX,smetric.ads.microsoft.com
+DOMAIN-SUFFIX,smetrics.washingtonpost.com
 DOMAIN-SUFFIX,snaptrckr.fun
 DOMAIN-SUFFIX,sngmta.qq.com
 DOMAIN-SUFFIX,sp-eu.dev.polarbyte.com
@@ -566,6 +585,7 @@ DOMAIN-SUFFIX,stat.m.jd.com
 DOMAIN-SUFFIX,stat.y.qq.com
 DOMAIN-SUFFIX,stat.youku.com
 DOMAIN-SUFFIX,statis.api.3g.youku.com
+DOMAIN-SUFFIX,stats.paypal.com
 DOMAIN-SUFFIX,statsfe2.ws.microsoft.com
 DOMAIN-SUFFIX,stocks-analytics-events.apple.com
 DOMAIN-SUFFIX,supportmetrics.apple.com
@@ -630,9 +650,11 @@ DOMAIN-SUFFIX,wit.qq.com
 DOMAIN-SUFFIX,wpadmngr.com
 DOMAIN-SUFFIX,wuliao.epro.sogou.com
 DOMAIN-SUFFIX,www.datadoghq-browser-agent.com
+DOMAIN-SUFFIX,www.datadoghq-browser-agent.com
 DOMAIN-SUFFIX,www.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
 DOMAIN-SUFFIX,yk-ssp.ad.youku.com
 DOMAIN-SUFFIX,ykad-data.youku.com
 DOMAIN-SUFFIX,z.gds.cnzz.com
+DOMAIN-SUFFIX,zeustechnology.com

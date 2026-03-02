@@ -21,6 +21,7 @@ domain_set:
 domain_suffix_set:
   - 2mdn-cn.net
   - 2mdn.net
+  - 3gl.net
   - 3lift.com
   - 4dex.io
   - a-reporting.nytimes.com
@@ -128,6 +129,7 @@ domain_suffix_set:
   - adwordsexpress.com
   - adxadserv.com
   - agent.tamedia.com.tw
+  - aisiteanalytics.com
   - alb.reddit.com
   - alimama.alicdn.com
   - alog.umeng.com
@@ -199,6 +201,7 @@ domain_suffix_set:
   - beaconcdn.qq.com
   - bongacams11.com
   - books-analytics-events.apple.com
+  - brandmetrics.com
   - browser.pipe.aria.microsoft.com
   - bs.yandex.ru
   - btloader.com
@@ -251,7 +254,12 @@ domain_suffix_set:
   - dable.io
   - dacdn.visualwebsiteoptimizer.com
   - data-optout-service.uca.cloud.unity3d.com
+  - data.account.paypal.com
   - data.em2.cloudflare.com
+  - data.fastlane-email.paypal.com
+  - data.messaging.paypal.com
+  - data.news.paypal.com
+  - data.newsletter.paypal.com
   - dcf.espn.com
   - dcfdata.espn.com
   - demandbase.com
@@ -282,6 +290,7 @@ domain_suffix_set:
   - error-tracking.reddit.com
   - et.nytimes.com
   - eunow4u.com
+  - eutzh.bokksu.com
   - event-router.olympics.com
   - eventrecorder.cm.bloomberg.com
   - events.iap.unity3d.com
@@ -352,6 +361,7 @@ domain_suffix_set:
   - html-load.cc
   - htrace.wetvinfo.com
   - hwstats.unity3d.com
+  - i.paypal.com
   - i.singular.net
   - i.snssdk.com
   - iad.apple.com
@@ -387,6 +397,7 @@ domain_suffix_set:
   - lijit.com
   - live.primis.tech
   - lngtd.com
+  - load.stape.bokksu.com
   - log-api.newrelic.com
   - log.espn.com
   - log.intellimize.co
@@ -429,10 +440,12 @@ domain_suffix_set:
   - metrics.dailymotion.com
   - metrics.icloud.com
   - metrics.imdb.a2z.com
+  - metrics.washingtonpost.com
   - miaozhen.com
   - mihoutao1868.github.io
   - minerva.devices.a2z.com
   - mixpanel.com
+  - ml314.com
   - mnaspm.com
   - mobile-collector.newrelic.com
   - mobileads.google.com
@@ -458,6 +471,7 @@ domain_suffix_set:
   - notes-analytics-events.apple.com
   - notify.bugsnag.com
   - nxnszu.ettoday.net
+  - ny77jj.washingtonpost.com
   - nytadvertising.nytimes.com
   - oc.umeng.com
   - odd-onead.cdn.hinet.net
@@ -467,6 +481,7 @@ domain_suffix_set:
   - optimus-ads.amap.com
   - osd-onead.cdn.hinet.net
   - osm-onead.cdn.hinet.net
+  - outbrain.com
   - outlookads.live.com
   - p-log.ykimg.com
   - p.aty.sohu.com
@@ -489,6 +504,7 @@ domain_suffix_set:
   - pebed.dm-event.net
   - pemsrv.com
   - perf-events.cloud.unity3d.com
+  - permutive.app
   - pgdt.gtimg.cn
   - pglstatp-sdk-toutiao.com
   - pglstatp-snssdk-toutiao.com
@@ -509,6 +525,8 @@ domain_suffix_set:
   - profile-api.amplitude.com
   - protected-api.branch.io
   - pub.network
+  - pubadx.one
+  - pubfuture-ad.com
   - publisher-event.ads.prd.ie.internal.unity3d.com
   - pubmatic.com
   - push.qq.com
@@ -559,6 +577,7 @@ domain_suffix_set:
   - skadnetwork.singular.net
   - smartadserver.com
   - smetric.ads.microsoft.com
+  - smetrics.washingtonpost.com
   - snaptrckr.fun
   - sngmta.qq.com
   - sp-eu.dev.polarbyte.com
@@ -569,6 +588,7 @@ domain_suffix_set:
   - stat.y.qq.com
   - stat.youku.com
   - statis.api.3g.youku.com
+  - stats.paypal.com
   - statsfe2.ws.microsoft.com
   - stocks-analytics-events.apple.com
   - supportmetrics.apple.com
@@ -633,11 +653,13 @@ domain_suffix_set:
   - wpadmngr.com
   - wuliao.epro.sogou.com
   - www.datadoghq-browser-agent.com
+  - www.datadoghq-browser-agent.com
   - www.visualwebsiteoptimizer.com
   - xy.fbcdn.net
   - xz.fbcdn.net
   - yk-ssp.ad.youku.com
   - ykad-data.youku.com
   - z.gds.cnzz.com
+  - zeustechnology.com
 domain_regex_set:
   - ^ad\..*|^ads\..*
