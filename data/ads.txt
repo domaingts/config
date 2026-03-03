@@ -701,3 +701,5 @@ data.newsletter.paypal.com
 i.paypal.com
 stats.paypal.com
 pubadx.one
+
+apcdp.apnews.com

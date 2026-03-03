@@ -152,6 +152,7 @@ domain_suffix_set:
   - analytics.tiktok.com
   - androidtvchannels-pa.googleapis.com
   - androidtvwatsonfe-pa.googleapis.com
+  - apcdp.apnews.com
   - api-adservices.apple.com
   - api.amplitude.com
   - api.appmetrica.yandex.ru
