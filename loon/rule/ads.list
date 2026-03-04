@@ -382,6 +382,7 @@ DOMAIN-SUFFIX,informer.yandex.ru
 DOMAIN-SUFFIX,insights-collector.newrelic.com
 DOMAIN-SUFFIX,inte.sogou.com
 DOMAIN-SUFFIX,inte.sogoucdn.com
+DOMAIN-SUFFIX,io.narrative.io
 DOMAIN-SUFFIX,ip-check-perf.radar.cloudflare.com
 DOMAIN-SUFFIX,isdspeed.qq.com
 DOMAIN-SUFFIX,jpush.cn
@@ -391,9 +392,11 @@ DOMAIN-SUFFIX,jzt.jd.com
 DOMAIN-SUFFIX,kargo.com
 DOMAIN-SUFFIX,kiks.yandex.ru
 DOMAIN-SUFFIX,lc-event.pixiv.net
+DOMAIN-SUFFIX,lfeeder.com
 DOMAIN-SUFFIX,liadm.com
 DOMAIN-SUFFIX,lijit.com
 DOMAIN-SUFFIX,live.primis.tech
+DOMAIN-SUFFIX,live.rezync.com
 DOMAIN-SUFFIX,lngtd.com
 DOMAIN-SUFFIX,load.stape.bokksu.com
 DOMAIN-SUFFIX,log-api.newrelic.com
@@ -509,6 +512,7 @@ DOMAIN-SUFFIX,pglstatp-snssdk-toutiao.com
 DOMAIN-SUFFIX,pglstatp-toutiao-b.com
 DOMAIN-SUFFIX,pglstatp-toutiao.com
 DOMAIN-SUFFIX,pingjs.qq.com
+DOMAIN-SUFFIX,pippio.com
 DOMAIN-SUFFIX,pixel-config.reddit.com
 DOMAIN-SUFFIX,pixel.reddit.com
 DOMAIN-SUFFIX,pl.youku.com
@@ -533,6 +537,7 @@ DOMAIN-SUFFIX,pv.sohu.com
 DOMAIN-SUFFIX,qpb.sohu.com
 DOMAIN-SUFFIX,qpb1.sohu.com
 DOMAIN-SUFFIX,qqdata.ab.qq.com
+DOMAIN-SUFFIX,quantummetric.com
 DOMAIN-SUFFIX,qwapi.com
 DOMAIN-SUFFIX,r1.visualwebsiteoptimizer.com
 DOMAIN-SUFFIX,r2.visualwebsiteoptimizer.com
@@ -581,6 +586,7 @@ DOMAIN-SUFFIX,sngmta.qq.com
 DOMAIN-SUFFIX,sp-eu.dev.polarbyte.com
 DOMAIN-SUFFIX,sr-client-cfg.amplitude.com
 DOMAIN-SUFFIX,sr-client-cfg.eu.amplitude.com
+DOMAIN-SUFFIX,ssc.voachinese.com
 DOMAIN-SUFFIX,ssp.hinet.net
 DOMAIN-SUFFIX,stat.m.jd.com
 DOMAIN-SUFFIX,stat.y.qq.com
@@ -593,6 +599,7 @@ DOMAIN-SUFFIX,supportmetrics.apple.com
 DOMAIN-SUFFIX,sw88.espn.com
 DOMAIN-SUFFIX,t.e.x.com
 DOMAIN-SUFFIX,taboola.com
+DOMAIN-SUFFIX,tags.voachinese.com
 DOMAIN-SUFFIX,tagtoo.co
 DOMAIN-SUFFIX,tagtoo.com
 DOMAIN-SUFFIX,tajs.qq.com
@@ -637,6 +644,7 @@ DOMAIN-SUFFIX,v6-adashx.ut.ele.me
 DOMAIN-SUFFIX,v6-adashx.ut.taobao.com
 DOMAIN-SUFFIX,v6-adashx.ut.youku.com
 DOMAIN-SUFFIX,video-ads.a2z.com
+DOMAIN-SUFFIX,viglink.com
 DOMAIN-SUFFIX,vortex.data.microsoft.com
 DOMAIN-SUFFIX,w.cnzz.com
 DOMAIN-SUFFIX,w3-reporting-nel.reddit.com
@@ -648,11 +656,13 @@ DOMAIN-SUFFIX,web-vitals-script.leaderint.workers.dev
 DOMAIN-SUFFIX,webed.dm-event.net
 DOMAIN-SUFFIX,wes.df.telemetry.microsoft.com
 DOMAIN-SUFFIX,wit.qq.com
+DOMAIN-SUFFIX,woopra.com
 DOMAIN-SUFFIX,wpadmngr.com
 DOMAIN-SUFFIX,wuliao.epro.sogou.com
 DOMAIN-SUFFIX,www.datadoghq-browser-agent.com
 DOMAIN-SUFFIX,www.datadoghq-browser-agent.com
 DOMAIN-SUFFIX,www.visualwebsiteoptimizer.com
+DOMAIN-SUFFIX,x.disq.us
 DOMAIN-SUFFIX,xy.fbcdn.net
 DOMAIN-SUFFIX,xz.fbcdn.net
 DOMAIN-SUFFIX,yk-ssp.ad.youku.com

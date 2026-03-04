@@ -385,6 +385,7 @@ domain_suffix_set:
   - insights-collector.newrelic.com
   - inte.sogou.com
   - inte.sogoucdn.com
+  - io.narrative.io
   - ip-check-perf.radar.cloudflare.com
   - isdspeed.qq.com
   - jpush.cn
@@ -394,9 +395,11 @@ domain_suffix_set:
   - kargo.com
   - kiks.yandex.ru
   - lc-event.pixiv.net
+  - lfeeder.com
   - liadm.com
   - lijit.com
   - live.primis.tech
+  - live.rezync.com
   - lngtd.com
   - load.stape.bokksu.com
   - log-api.newrelic.com
@@ -512,6 +515,7 @@ domain_suffix_set:
   - pglstatp-toutiao-b.com
   - pglstatp-toutiao.com
   - pingjs.qq.com
+  - pippio.com
   - pixel-config.reddit.com
   - pixel.reddit.com
   - pl.youku.com
@@ -536,6 +540,7 @@ domain_suffix_set:
   - qpb.sohu.com
   - qpb1.sohu.com
   - qqdata.ab.qq.com
+  - quantummetric.com
   - qwapi.com
   - r1.visualwebsiteoptimizer.com
   - r2.visualwebsiteoptimizer.com
@@ -584,6 +589,7 @@ domain_suffix_set:
   - sp-eu.dev.polarbyte.com
   - sr-client-cfg.amplitude.com
   - sr-client-cfg.eu.amplitude.com
+  - ssc.voachinese.com
   - ssp.hinet.net
   - stat.m.jd.com
   - stat.y.qq.com
@@ -596,6 +602,7 @@ domain_suffix_set:
   - sw88.espn.com
   - t.e.x.com
   - taboola.com
+  - tags.voachinese.com
   - tagtoo.co
   - tagtoo.com
   - tajs.qq.com
@@ -640,6 +647,7 @@ domain_suffix_set:
   - v6-adashx.ut.taobao.com
   - v6-adashx.ut.youku.com
   - video-ads.a2z.com
+  - viglink.com
   - vortex.data.microsoft.com
   - w.cnzz.com
   - w3-reporting-nel.reddit.com
@@ -651,11 +659,13 @@ domain_suffix_set:
   - webed.dm-event.net
   - wes.df.telemetry.microsoft.com
   - wit.qq.com
+  - woopra.com
   - wpadmngr.com
   - wuliao.epro.sogou.com
   - www.datadoghq-browser-agent.com
   - www.datadoghq-browser-agent.com
   - www.visualwebsiteoptimizer.com
+  - x.disq.us
   - xy.fbcdn.net
   - xz.fbcdn.net
   - yk-ssp.ad.youku.com
