@@ -182,6 +182,7 @@ domain_suffix_set:
   - assp.sohu.com
   - atanx.alicdn.com
   - atanx2.alicdn.com
+  - ati-a1.946d001b783803c1.xhst.bbci.co.uk
   - atm.youku.com
   - atrace.chelaile.net.cn
   - au.adhacker.online
@@ -237,6 +238,7 @@ domain_suffix_set:
   - commerce.bing.com
   - compass-fit.jp
   - config.uca.cloud.unity3d.com
+  - connatix.com
   - conversions-config.reddit.com
   - copilot-telemetry.githubusercontent.com
   - cps.360buy.com
@@ -271,6 +273,7 @@ domain_suffix_set:
   - diffusedpassionquaking.com
   - diffusedpassionquaking.com
   - dig.bdurl.net
+  - diskaa.com
   - dmxleo.dailymotion.com
   - doubleclick-cn.net
   - doubleclick.cn
@@ -298,6 +301,7 @@ domain_suffix_set:
   - events.mz.unity3d.com
   - events.reddit.com
   - events.watchtower.imdbtv.amazon.dev
+  - evs.sgmt.loom.com
   - exosrv.com
   - extlog.snssdk.com
   - eyebrowscrambledlater.com
@@ -311,6 +315,7 @@ domain_suffix_set:
   - fourier.taobao.com
   - fpb.sohu.com
   - fractionfridgejudiciary.com
+  - fullstory.com
   - fwmrm.net
   - g.click.taobao.com
   - gcp.fasthorse.workers.dev
@@ -390,6 +395,7 @@ domain_suffix_set:
   - isdspeed.qq.com
   - jpush.cn
   - js-agent.newrelic.com
+  - juicyads.com
   - jwpltx.com
   - jzt.jd.com
   - kargo.com
@@ -465,6 +471,7 @@ domain_suffix_set:
   - msg.ettoday.net
   - msg.youku.com
   - mtrace.qq.com
+  - mybbc-analytics.files.bbci.co.uk
   - nbsdk-baichuan.alicdn.com
   - nbsdk-baichuan.taobao.com
   - new-aaid.umeng.com
@@ -528,6 +535,7 @@ domain_suffix_set:
   - prod.tahoe-analytics.publishers.advertising.a2z.com
   - prod.us-east-1.cxm-bcn.publisher-services.amazon.dev
   - profile-api.amplitude.com
+  - promptsgod.com
   - protected-api.branch.io
   - pub.network
   - pubadx.one
@@ -542,6 +550,7 @@ domain_suffix_set:
   - qqdata.ab.qq.com
   - quantummetric.com
   - qwapi.com
+  - r.bbci.co.uk
   - r1.visualwebsiteoptimizer.com
   - r2.visualwebsiteoptimizer.com
   - r3.visualwebsiteoptimizer.com
@@ -587,6 +596,7 @@ domain_suffix_set:
   - snaptrckr.fun
   - sngmta.qq.com
   - sp-eu.dev.polarbyte.com
+  - sponsors.asisonline.org
   - sr-client-cfg.amplitude.com
   - sr-client-cfg.eu.amplitude.com
   - ssc.voachinese.com
