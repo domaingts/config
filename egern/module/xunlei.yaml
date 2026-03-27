@@ -1,0 +1,14 @@
+name: Xunlei
+description: Xunlei module
+
+scriptings:
+  - http_response:
+      name: Xunlei Inject
+      match: '^https?://xluser-ssl\.xunlei\.com/xluser\.core\.login/v3/getuserinfo'
+      script_url: 'https://raw.githubusercontent.com/domaingts/config/refs/heads/main/script/xunlei2.js'
+      body_required: true
+
+mitm:
+  hostnames:
+    includes:
+      - xluser-ssl.xunlei.com

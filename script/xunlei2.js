@@ -14,5 +14,6 @@ export default async function (ctx) {
         "vipGrow": "840",
         "vipLevel": "7"
     }];
+
     return { body: obj }
 }
