@@ -16,6 +16,7 @@ export default async function (ctx) {
         pingBg: { light: '#F2F2F7', dark: '#2C2C2E' },
     };
     const mkText = (text, size, weight, color, opts = {}) => ({ type: "text", text: text, font: { size, weight, ...(opts.font ?? {}) }, textColor: color, ...opts });
+    const mkSimpleText = (text, color, opts = {}) => ({ type: "text", text: text, textColor: color, ...opts });
     const mkIcon = (src, color, size = 13) => ({ type: "image", src: `sf-symbol:${src}`, color: color, width: size, height: size });
     const httpGet = async (url) => {
         try {
@@ -117,14 +118,14 @@ export default async function (ctx) {
                                 {
                                     type: 'stack', direction: 'row', alignItems: 'center', gap: 2, children: [
                                         mkIcon('mappin.circle.fill', locColor, 10),
-                                        mkText(localPing > 0 ? `${localPing}` : "-", 10, 'bold', locColor, { font: { family: 'Menlo' } }),
+                                        mkSimpleText(localPing > 0 ? `${localPing}` : "-", locColor, { font: { size: 10, weight: 'bold', family: 'Menlo' } }),
                                     ]
                                 },
                                 mkText('|', 10, 'light', C.muted),
                                 {
                                     type: 'stack', direction: 'row', alignItems: 'center', gap: 2, children: [
                                         mkIcon('globe.fill', nodColor, 10),
-                                        mkText(nodePing > 0 ? `${nodePing}` : "-", 10, 'bold', nodColor, { font: { family: 'Menlo' } }),
+                                        mkSimpleText(nodePing > 0 ? `${nodePing}` : "-", nodColor, { font: { size: 10, weight: 'bold', family: 'Menlo' } }),
                                     ]
                                 }
                             ]
@@ -142,7 +143,7 @@ export default async function (ctx) {
                 {
                     type: 'stack', direction: 'row', alignItems: 'center', children: [
                         { type: 'spacer' },
-                        mkText(`update at ${timeStr}`, 9, 'bold', C.muted, { font: { family: 'Menlo' } }),
+                        mkSimpleText(`update at ${timeStr}`, C.muted, { font: { size: 9, weight: 'bold', family: 'Menlo' } }),
                     ]
                 }
             ]
