@@ -1,8 +1,8 @@
 export default async function (ctx) {
     const now = new Date();
     const pad = (n) => String(n).padStart(2, "0");
-    const timeStr = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
-    const nextRefreshTime = new Date(now.getFullYear(), now.getMonth(), now.getHours(), now.getMinutes(), now.getSeconds() + 20);
+    const timeStr = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
+    const nextRefreshTime = new Date(now.getFullYear(), now.getMonth(), now.getHours(), now.getMinutes() + 5);
     const C = {
         bg: [{ light: '#FFFFFF', dark: '#1C1C1E' }, { light: '#F5F5F9', dark: '#0C0C0E' }],
         main: { light: '#1C1C1E', dark: '#FFFFFF' },
@@ -21,7 +21,7 @@ export default async function (ctx) {
     const httpGet = async (url) => {
         try {
             const start = Date.now();
-            const resp = await ctx.http.get(url, { headers: { "User-Agent": "Mozilla/5.0" }, timeout: 8000 });
+            const resp = await ctx.http.get(url, { headers: { "User-Agent": "Mozilla/5.0" }, timeout: 5000 });
             const json = await resp.json();
             return { data: json.data || json, ping: Date.now() - start };
         }
