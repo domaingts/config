@@ -2,6 +2,7 @@ export default async function (ctx) {
     const now = new Date();
     const pad = (n) => String(n).padStart(2, "0");
     const timeStr = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
+    const nextRefreshTime = new Date(now.getFullYear(), now.getMonth(), now.getHours(), now.getMinutes(), now.getSeconds() + 20);
     const C = {
         bg: [{ light: '#FFFFFF', dark: '#1C1C1E' }, { light: '#F5F5F9', dark: '#0C0C0E' }],
         main: { light: '#1C1C1E', dark: '#FFFFFF' },
@@ -14,6 +15,8 @@ export default async function (ctx) {
         cyan: { light: '#628C7B', dark: '#73A491' },
         pingBg: { light: '#F2F2F7', dark: '#2C2C2E' },
     };
+    const mkText = (text, size, weight, color, opts = {}) => ({ type: "text", text: text, font: { size, weight }, textColor: color, ...opts });
+    const mkIcon = (src, color, size = 13) => ({ type: "image", src: `sf-symbol:${src}`, color: color, width: size, height: size });
     const httpGet = async (url) => {
         try {
             const start = Date.now();
@@ -92,11 +95,12 @@ export default async function (ctx) {
             type: 'stack', direction: 'row', alignItems: 'center', gap: 4, children: [
                 {
                     type: 'stack', direction: 'row', alignItems: 'center', gap: 2, width: 52, children: [
-                        { type: 'image', src: `sf-symbol:${icon}`, color, width: 13, height: 13 },
+                        mkIcon(icon, color, 13),
+                        mkText(label, 12, 'heavy', color),
                         { type: 'text', text: label, font: { size: 12, weight: 'heavy' }, textColor: color },
                     ]
                 },
-                { type: 'text', text: content, font: { size: 12, weight: 'medium' }, textColor: contentColor, maxLines: 1, minScale: 0.5, flex: 1 },
+                mkText(content, 12, 'medium', contentColor, { maxLines: 1, minScale: 0.5, flex: 1 }),
             ]
         });
         let widgetConfig = {
@@ -105,26 +109,22 @@ export default async function (ctx) {
             children: [
                 {
                     type: 'stack', direction: 'row', alignItems: 'center', gap: 6, children: [
-                        {
-                            type: 'image',
-                            src: wifiSsid ? 'sf-symbol:wifi' : (cellularRadio ? 'sf-symbol:antenna.radiowaves.left.and.right' : 'sf-symbol:wifi.slash'),
-                            color: C.main, width: 16, height: 16
-                        },
-                        { type: 'text', text: `${currentISP} · ${wifiSsid || radioType || "未连接"}`, font: { size: 15, weight: 'heavy' }, textColor: C.main, maxLines: 1, minScale: 0.7 },
+                        mkIcon(wifiSsid ? 'wifi' : (cellularRadio ? 'antenna.radiowaves.left.and.right' : ':wifi.slash'), C.main, 16),
+                        mkText(`${currentISP} · ${wifiSsid || radioType || "未连接"}`, 15, 'heavy', C.main, { maxLines: 1, minScale: 0.7 }),
                         { type: 'spacer' },
                         {
                             type: 'stack', direction: 'row', alignItems: 'center', gap: 4, padding: [3, 6], borderRadius: 6, backgroundColor: C.pingBg, children: [
                                 {
                                     type: 'stack', direction: 'row', alignItems: 'center', gap: 2, children: [
-                                        { type: 'image', src: 'sf-symbol:mappin.circle.fill', color: locColor, width: 10, height: 10 },
-                                        { type: 'text', text: localPing > 0 ? `${localPing}` : "-", font: { size: 10, weight: 'bold', family: 'Menlo' }, textColor: locColor }
+                                        mkIcon('mappin.circle.fill', locColor, 10),
+                                        mkText(localPing > 0 ? `${localPing}` : "-", 10, 'bold', locColor, { font: { family: 'Menlo' } }),
                                     ]
                                 },
-                                { type: 'text', text: '|', font: { size: 10, weight: 'light' }, textColor: C.muted },
+                                mkText('|', 10, 'light', C.muted),
                                 {
                                     type: 'stack', direction: 'row', alignItems: 'center', gap: 2, children: [
-                                        { type: 'image', src: 'sf-symbol:globe.fill', color: nodColor, width: 10, height: 10 },
-                                        { type: 'text', text: nodePing > 0 ? `${nodePing}` : "-", font: { size: 10, weight: 'bold', family: 'Menlo' }, textColor: nodColor }
+                                        mkIcon('globe.fill', nodColor, 10),
+                                        mkText(nodePing > 0 ? `${nodePing}` : "-", 10, 'bold', nodColor, { font: { family: 'Menlo' } }),
                                     ]
                                 }
                             ]
@@ -142,7 +142,7 @@ export default async function (ctx) {
                 {
                     type: 'stack', direction: 'row', alignItems: 'center', children: [
                         { type: 'spacer' },
-                        { type: 'text', text: `更新于 ${timeStr}`, font: { size: 9, weight: 'bold', family: 'Menlo' }, textColor: C.muted }
+                        mkText(`更新于 ${timeStr}`, 9, 'bold', C.muted, { font: { family: 'Menlo' } }),
                     ]
                 }
             ]
@@ -152,16 +152,17 @@ export default async function (ctx) {
     catch (err) {
         return {
             type: 'widget', padding: 12,
+            refreshAfter: nextRefreshTime.toISOString(),
             backgroundGradient: { type: 'linear', colors: [{ light: '#FFFFFF', dark: '#1C1C1E' }, { light: '#F5F5F9', dark: '#0C0C0E' }], startPoint: { x: 0, y: 0 }, endPoint: { x: 1, y: 1 } },
             children: [
-                { type: 'text', text: '网络面板崩溃 ⚠️', font: { size: 14, weight: 'heavy' }, textColor: '#FF453A' },
+                mkText('网络面板崩溃 ⚠️', 14, 'heavy', '#FF453A'),
                 { type: 'spacer', length: 4 },
-                { type: 'text', text: String(err.message || err), font: { size: 11 }, textColor: '#8E8E93', maxLines: 5 },
+                mkText(String(err.message || err), 11, "regular", '#8E8E93', { maxLines: 5 }),
                 { type: 'spacer' },
                 {
                     type: 'stack', direction: 'row', children: [
                         { type: 'spacer' },
-                        { type: 'text', text: `重试于 ${timeStr}`, font: { size: 9, weight: 'bold', family: 'Menlo' }, textColor: '#8E8E93' }
+                        mkText(`Will retry at ${timeStr}`, 9, 'bold', '#8E8E93', { font: { family: 'Menlo' } })
                     ]
                 }
             ]
