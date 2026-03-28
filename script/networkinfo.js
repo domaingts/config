@@ -1,7 +1,7 @@
 export default async function (ctx) {
     const now = new Date();
     const pad = (n) => String(n).padStart(2, "0");
-    const timeStr = `${pad(now.getHours())}:${pad(now.getMinutes())}`;
+    const timeStr = `${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
     const nextRefreshTime = new Date(now.getFullYear(), now.getMonth(), now.getHours(), now.getMinutes(), now.getSeconds() + 20);
     const C = {
         bg: [{ light: '#FFFFFF', dark: '#1C1C1E' }, { light: '#F5F5F9', dark: '#0C0C0E' }],
@@ -98,7 +98,6 @@ export default async function (ctx) {
                     type: 'stack', direction: 'row', alignItems: 'center', gap: 2, width: 52, children: [
                         mkIcon(icon, color, 13),
                         mkText(label, 12, 'heavy', color),
-                        { type: 'text', text: label, font: { size: 12, weight: 'heavy' }, textColor: color },
                     ]
                 },
                 mkText(content, 12, 'medium', contentColor, { maxLines: 1, minScale: 0.5, flex: 1 }),
