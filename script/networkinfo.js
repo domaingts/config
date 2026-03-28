@@ -142,7 +142,7 @@ export default async function (ctx) {
                 {
                     type: 'stack', direction: 'row', alignItems: 'center', children: [
                         { type: 'spacer' },
-                        mkText(`更新于 ${timeStr}`, 9, 'bold', C.muted, { font: { family: 'Menlo' } }),
+                        mkText(`update at ${timeStr}`, 9, 'bold', C.muted),
                     ]
                 }
             ]
