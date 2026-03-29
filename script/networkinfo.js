@@ -137,8 +137,8 @@ export default async function (ctx) {
                 {
                     type: 'stack', direction: 'column', alignItems: 'start', gap: 8, flex: 1, children: [
                         buildRow('house.fill', C.teal, '内网', r1Content),
-                        buildRow('location.circle.fill', C.blue, 'local', r2Content),
-                        buildRow('network', C.purple, 'proxy', r3Content, isDnsLeak ? C.red : C.sub),
+                        buildRow('location.circle.fill', C.blue, '本地', r2Content),
+                        buildRow('network', C.purple, '节点', r3Content, isDnsLeak ? C.red : C.sub),
                         buildRow('shield.lefthalf.filled', C.cyan, '属性', r4Content)
                     ]
                 },
