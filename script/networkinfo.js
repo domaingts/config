@@ -16,7 +16,7 @@ export default async function (ctx) {
         cyan: { light: '#628C7B', dark: '#73A491' },
         pingBg: { light: '#F2F2F7', dark: '#2C2C2E' },
     };
-    const mkText = (text, size, weight, color, opts = {}) => ({ type: "text", text: text, font: { size, weight, ...(opts.font ?? {}) }, textColor: color, ...opts });
+    const mkText = (text, size, weight, color, opts = {}) => ({ type: "text", text: text, font: { size, weight }, textColor: color, ...opts });
     const mkSimpleText = (text, color, opts = {}) => ({ type: "text", text: text, textColor: color, ...opts });
     const mkIcon = (src, color, size = 13) => ({ type: "image", src: `sf-symbol:${src}`, color: color, width: size, height: size });
     const httpGet = async (url) => {
