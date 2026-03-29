@@ -118,25 +118,11 @@ export default async function (ctx) {
     catch (_) {
         fetchError = true;
     }
-    const getVal = (...keys) => {
-        for (const k of keys) {
-            const v = apiData[k];
-            if (!v)
-                continue;
-            if (typeof v === 'string')
-                return v;
-            if (Array.isArray(v))
-                return v.join(' ');
-        }
-        return "";
-    };
-    const rawYi = getVal("suit").replace(/\./g, " ").trim();
-    const rawJi = getVal("avoid").replace(/\./g, " ").trim();
-    let chongshaInfo = getVal("chongsha", "ChongSha", "chong");
-    if (!chongshaInfo || chongshaInfo === "无") {
-        const cycle = (Math.round((Date.UTC(Y, M - 1, D) - Date.UTC(1900, 0, 31)) / 86400000) + 40) % 60;
-        chongshaInfo = `冲${"鼠牛虎兔龙蛇马羊猴鸡狗猪"[(cycle % 12 + 6) % 12]}(${"甲乙丙丁戊己庚辛壬癸"[(cycle + 6) % 10]}${"子丑寅卯辰巳午未申酉戌亥"[(cycle + 6) % 12]})煞${["南", "东", "北", "西"][cycle % 12 % 4]}`;
-    }
+    const getVal = (key) => apiData[key] || {};
+    const rawYi = getVal("suit").trim().split(/\./).slice(0, 6).join(" ");
+    const rawJi = getVal("avoid").trim().split(/\./).slice(0, 6).join(" ");
+    const cycle = (Math.round((Date.UTC(Y, M - 1, D) - Date.UTC(1900, 0, 31)) / 86400000) + 40) % 60;
+    const chongshaInfo = `冲${"鼠牛虎兔龙蛇马羊猴鸡狗猪"[(cycle % 12 + 6) % 12]}(${"甲乙丙丁戊己庚辛壬癸"[(cycle + 6) % 10]}${"子丑寅卯辰巳午未申酉戌亥"[(cycle + 6) % 12]})煞${["南", "东", "北", "西"][cycle % 12 % 4]}`;
     const starStr = "⭐".repeat(rawYi.length > rawJi.length + 8 ? 5 : 4);
     const splitText = (str, maxW = FIRST_LINE_MAX_CHARS) => {
         if (!str)
