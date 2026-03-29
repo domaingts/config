@@ -87,7 +87,7 @@ export default async function (ctx) {
         const locStr = Array.isArray(local.location) ? local.location.slice(0, 3).join('').trim() : '';
         const r2Base = [local.ip || "获取中...", locStr].filter(Boolean).join(" / ");
         const r2Content = r2Base;
-        const nodeLoc = [getFlagEmoji(nodeCountryCode), node.country, node.city].filter(Boolean).join(" ");
+        const nodeLoc = [getFlagEmoji(nodeCountryCode), node.city].filter(Boolean).join(" ");
         const asnStr = node.asn ? String(node.asn).split(' ')[0] : "";
         const r3Content = [node.query || node.ip || "获取中...", nodeLoc, asnStr].filter(Boolean).join(" / ");
         const risk = node.fraudScore;
