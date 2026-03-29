@@ -15,10 +15,6 @@ export default async function (ctx) {
         term: { light: '#628C7B', dark: '#73A491' },
         transparent: '#00000000'
     };
-    // const mkText = (text: any, size: number | string, weight: string, color: Color | AdaptiveColor, opts: Partial<Omit<TextElement, "type" | "text" | "font" | "textColor">> = {}): TextElement =>
-    //     ({ type: "text", text: String(text), font: { size, weight }, textColor: color, ...opts });
-    // const mkRow = (children: Element[], gap: number = 4, opts: Partial<Omit<StackElement, "type" | "direction" | "alignItems" | "gap" | "children">>): StackElement =>
-    //     ({ type: "stack", direction: "row", alignItems: "center", gap, children });
     const mkText = (text, size, weight, color, opts = {}) => ({ type: "text", text: text, font: { size, weight }, textColor: color, ...opts });
     const mkRow = (children, gap = 4, opts = {}) => ({ type: "stack", direction: "row", alignItems: "center", gap, children, ...opts });
     const mkIcon = (src, color, size = 13) => ({ type: "image", src: `sf-symbol:${src}`, color: color, width: size, height: size });
@@ -114,30 +110,10 @@ export default async function (ctx) {
     try {
         const resp = await ctx.http.get(`https://raw.githubusercontent.com/zqzess/openApiData/main/calendar_new/${Y}/${Y}${P(M)}.json`, { timeout: 8000 });
         const json = await resp.json();
-        const patterns = [`${Y}-${P(M)}-${P(D)}`, `${Y}-${M}-${D}`, `${Y}/${P(M)}/${P(D)}`, `${Y}/${M}/${D}`, `${Y}${P(M)}${P(D)}`];
-        const findDateData = (data, depth = 0) => {
-            if (!data || typeof data !== 'object' || depth > 5)
-                return null;
-            for (const key in data) {
-                const val = data[key];
-                if (!val)
-                    continue;
-                if (patterns.some(p => String(key).includes(p)))
-                    return val;
-                if (typeof val === 'object') {
-                    const dStr = String(val.date || val.day || val.gregorian || val.oDate || "");
-                    if (patterns.some(p => dStr.includes(p)))
-                        return val;
-                    if (val.day == D && (val.month == M || (!val.month && !val.year)))
-                        return val;
-                    const res = findDateData(val, depth + 1);
-                    if (res)
-                        return res;
-                }
-            }
-            return null;
-        };
-        apiData = findDateData(json) || {};
+        const almanac = json?.Result[0]?.DisplayData?.resultData?.tplData?.data?.almanac;
+        if (almanac && Array.isArray(almanac)) {
+            apiData = almanac.find((n) => n.day == D);
+        }
     }
     catch (_) {
         fetchError = true;
@@ -154,14 +130,14 @@ export default async function (ctx) {
         }
         return "";
     };
-    const rawYi = getVal("yi", "Yi", "suit").replace(/\./g, " ").trim();
-    const rawJi = getVal("ji", "Ji", "avoid").replace(/\./g, " ").trim();
+    const rawYi = getVal("suit").replace(/\./g, " ").trim();
+    const rawJi = getVal("avoid").replace(/\./g, " ").trim();
     let chongshaInfo = getVal("chongsha", "ChongSha", "chong");
     if (!chongshaInfo || chongshaInfo === "无") {
         const cycle = (Math.round((Date.UTC(Y, M - 1, D) - Date.UTC(1900, 0, 31)) / 86400000) + 40) % 60;
         chongshaInfo = `冲${"鼠牛虎兔龙蛇马羊猴鸡狗猪"[(cycle % 12 + 6) % 12]}(${"甲乙丙丁戊己庚辛壬癸"[(cycle + 6) % 10]}${"子丑寅卯辰巳午未申酉戌亥"[(cycle + 6) % 12]})煞${["南", "东", "北", "西"][cycle % 12 % 4]}`;
     }
-    const starStr = "⭐".repeat(parseInt(getVal("score", "Score", "pingfen", "star")) || (rawYi.length > rawJi.length + 8 ? 5 : 4));
+    const starStr = "⭐".repeat(rawYi.length > rawJi.length + 8 ? 5 : 4);
     const splitText = (str, maxW = FIRST_LINE_MAX_CHARS) => {
         if (!str)
             return [];
@@ -255,13 +231,11 @@ export default async function (ctx) {
             ]
         };
     }
-    // ==================== 主布局 (systemMedium / systemLarge) ====================
     return {
         type: 'widget', padding: 12, url: 'calshow://',
         refreshAfter: nextMidnight.toISOString(),
         backgroundGradient: { type: 'linear', colors: C.bg, startPoint: { x: 0, y: 0 }, endPoint: { x: 1, y: 1 } },
         children: [
-            // 标题栏
             mkRow([
                 mkIcon('calendar', C.main, 16),
                 mkText(`${Y}年${M}月${D}日 星期${WEEK}`, 15, "heavy", C.main),
