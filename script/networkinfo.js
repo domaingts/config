@@ -12,6 +12,7 @@ export default async function (ctx) {
         red: { light: '#CA3B32', dark: '#FF453A' },
         teal: { light: '#2E8045', dark: '#32D74B' },
         blue: { light: '#3A5F85', dark: '#5E8EB8' },
+        purple: { light: '#6B4C9A', dark: '#8B6AA8' },
         cyan: { light: '#628C7B', dark: '#73A491' },
         pingBg: { light: '#F2F2F7', dark: '#2C2C2E' },
     };
@@ -61,37 +62,37 @@ export default async function (ctx) {
             d.wifi?.ssid,
             d.cellular?.radio
         ];
-        const [localResp, nodeResp, pureResp, ipv6Resp] = await Promise.all([
+        const [localResp, pureResp] = await Promise.all([
             httpGet('https://myip.ipip.net/json'),
-            httpGet('http://ip-api.com/json/?lang=zh-CN'),
             httpGet('https://my.ippure.com/v1/info'),
-            httpGet('https://api64.ipify.org?format=json'),
         ]);
         const { data: local, ping: localPing } = localResp;
-        const { data: node, ping: nodePing } = nodeResp;
-        const pure = pureResp.data || {};
-        const publicIPv6Raw = ipv6Resp.data?.ip || '';
-        const publicIPv6 = publicIPv6Raw.includes(':') ? publicIPv6Raw : '';
+        const { data: node, ping: nodePing } = pureResp;
         const locColor = localPing === 0 ? C.muted : (localPing < 60 ? C.teal : (localPing < 150 ? C.gold : C.red));
         const nodColor = nodePing === 0 ? C.muted : (nodePing < 150 ? C.teal : (nodePing < 300 ? C.gold : C.red));
-        const rawISP = (Array.isArray(local.location) ? local.location[local.location.length - 1] : "") || node?.isp || node?.org;
+        const rawISP = (Array.isArray(local.location) ? local.location[local.location.length - 1] : "") || node?.asOrganization;
         const currentISP = fmtISP(rawISP);
         const rawRadio = cellularRadio ? String(cellularRadio).toUpperCase().trim() : "";
         const radioType = { "GPRS": "2.5G", "EDGE": "2.75G", "WCDMA": "3G", "LTE": "4G", "NR": "5G", "NRNSA": "5G" }[rawRadio] || rawRadio;
+        const localCountryRaw = Array.isArray(local.location) ? (local.location[0] || "") : "";
         const nodeCountryCode = (node.countryCode || "").toUpperCase();
+        const localIsCN = localCountryRaw.includes("中国") || localCountryRaw.includes("China");
+        const nodeIsCN = nodeCountryCode === "CN";
+        const isDnsLeak = localIsCN && nodeIsCN;
+        const leakLabel = isDnsLeak ? "⚠️ 泄漏" : "";
         const r1Parts = [internalIP || "未连接", gatewayIP !== internalIP ? gatewayIP : null].filter(Boolean);
         if (internalIPv6)
             r1Parts.push("[v6]");
         const r1Content = r1Parts.join(" / ");
         const locStr = Array.isArray(local.location) ? local.location.slice(0, 3).join('').trim() : '';
         const r2Base = [local.ip || "获取中...", locStr].filter(Boolean).join(" / ");
-        const r2Content = publicIPv6 ? `${r2Base} / [v6]` : r2Base;
+        const r2Content = r2Base;
         const nodeLoc = [getFlagEmoji(nodeCountryCode), node.country, node.city].filter(Boolean).join(" ");
-        const asnStr = node.as ? String(node.as).split(' ')[0] : "";
+        const asnStr = node.asn ? String(node.asn).split(' ')[0] : "";
         const r3Content = [node.query || node.ip || "获取中...", nodeLoc, asnStr].filter(Boolean).join(" / ");
-        const risk = pure.fraudScore;
+        const risk = node.fraudScore;
         const riskTxt = risk === undefined ? "未知风险" : (risk >= 80 ? `极高危(${risk})` : risk >= 70 ? `高危(${risk})` : risk >= 40 ? `中危(${risk})` : `低危(${risk})`);
-        const r4Content = `${pure.isResidential === true ? "原生住宅" : (pure.isResidential === false ? "商业机房" : "未知属性")} / ${riskTxt}`;
+        const r4Content = `${node.isResidential === true ? "原生住宅" : (node.isResidential === false ? "商业机房" : "未知属性")} / ${riskTxt}`;
         const buildRow = (icon, color, label, content, contentColor = C.sub) => ({
             type: 'stack', direction: 'row', alignItems: 'center', gap: 4, children: [
                 {
@@ -112,6 +113,7 @@ export default async function (ctx) {
                         mkIcon(wifiSsid ? 'wifi' : (cellularRadio ? 'antenna.radiowaves.left.and.right' : ':wifi.slash'), C.main, 16),
                         mkText(`${currentISP} · ${wifiSsid || radioType || "未连接"}`, 15, 'heavy', C.main, { maxLines: 1, minScale: 0.7 }),
                         { type: 'spacer' },
+                        ...(leakLabel ? [{ type: 'text', text: leakLabel, font: { size: 10, weight: 'bold' }, textColor: C.red }] : []),
                         {
                             type: 'stack', direction: 'row', alignItems: 'center', gap: 4, padding: [3, 6], borderRadius: 6, backgroundColor: C.pingBg, children: [
                                 {
@@ -135,7 +137,8 @@ export default async function (ctx) {
                 {
                     type: 'stack', direction: 'column', alignItems: 'start', gap: 8, flex: 1, children: [
                         buildRow('house.fill', C.teal, '内网', r1Content),
-                        buildRow('location.circle.fill', C.blue, '本地', r2Content),
+                        buildRow('location.circle.fill', C.blue, 'local', r2Content),
+                        buildRow('network', C.purple, 'proxy', r3Content, isDnsLeak ? C.red : C.sub),
                         buildRow('shield.lefthalf.filled', C.cyan, '属性', r4Content)
                     ]
                 },
