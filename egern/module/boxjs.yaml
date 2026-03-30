@@ -1,0 +1,12 @@
+scriptings:
+  - http_request:
+      name: 'BoxJs'
+      match: "^https?://(.+\\.)?boxjs\\.com"
+      script_url: 'https://raw.githubusercontent.com/neishewxn/config/main/module/script/box.js'
+      body_required: true
+      timeout: 120
+
+mitm:
+  hostnames:
+    - 'boxjs.com'
+    - '*.boxjs.com'
